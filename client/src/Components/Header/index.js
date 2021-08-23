@@ -1,40 +1,30 @@
-import React from 'react'
-// import './style.css';
+import React from 'react';
+import Logo1 from '../../Images/Pineywoods-OBGYN-office-Logo.jpg';
+import Logo2 from '../../Images/Pineywoods-OBGYN-Sketched-Logo.jpg';
+import './style.css';
 
 function Header () {
     return(
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul> 
-  </div>
-</nav>
+            <header class="navbar navbar-expand navbar-light flex-column flex-md-row bd-navbar">
+                <a class="navbar-brand mr-0 mr-md-2" aria-label="Bootstrap"><img src={Logo1} width='100%' height='100%'/><title>Bootstrap</title></a>
+                <div class="navbar-nav-scroll">
+                    <ul class="navbar-nav bd-navbar-nav flex-row">
+                        <li class="nav-item">
+                            <a type='button' class="nav-link active" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Updates">Updates</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
         </div>
     )
 }
