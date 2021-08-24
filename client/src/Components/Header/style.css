@@ -1,15 +1,19 @@
-* {
-    
+header {
+    color: blue;
 }
 
 body {
-    background-color: white;
 }
 
 img {
     text-shadow: black;
 }
 
-.nav-link {
+#grey {
+    background-color: rgb(1, 102, 1);
+    padding: 10px;
+    margin: 20px;
     color: white;
+
+    border-radius: 10%;
 }
