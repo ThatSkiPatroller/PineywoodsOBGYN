@@ -10,7 +10,7 @@ const style = {
 
 function FadeInLogo () {
     return(
-        <ImageFadeIn width={500} height={500} opacityTransition={4} style={style} src={logo} />
+        <ImageFadeIn width={400} height={400} opacityTransition={6} style={style} src={logo} />
     )
 }
 
