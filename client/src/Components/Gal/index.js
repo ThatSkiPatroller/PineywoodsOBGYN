@@ -20,6 +20,6 @@ function Gal () {
             <ImageGallery items={images}/>
         </div>
     )
-};
+}
 
 export default Gal;
