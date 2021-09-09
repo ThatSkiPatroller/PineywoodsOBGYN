@@ -1,18 +1,26 @@
 {
-  "main.css": "/static/css/main.2facb705.chunk.css",
-  "main.js": "/static/js/main.bdcdb335.chunk.js",
-  "main.js.map": "/static/js/main.bdcdb335.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/css/2.326e5706.chunk.css": "/static/css/2.326e5706.chunk.css",
-  "static/js/2.7204697a.chunk.js": "/static/js/2.7204697a.chunk.js",
-  "static/js/2.7204697a.chunk.js.map": "/static/js/2.7204697a.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.564d4c132ca08758d6acbe442e0420f6.js": "/precache-manifest.564d4c132ca08758d6acbe442e0420f6.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.326e5706.chunk.css.map": "/static/css/2.326e5706.chunk.css.map",
-  "static/css/main.2facb705.chunk.css.map": "/static/css/main.2facb705.chunk.css.map",
-  "static/media/dog1.jpg": "/static/media/dog1.d426112b.jpg",
-  "static/media/dog2.jpg": "/static/media/dog2.9077ef7d.jpg",
-  "static/media/transp-small-logo.png": "/static/media/transp-small-logo.75c9d7b5.png"
+  "files": {
+    "main.css": "/static/css/main.4eef6002.chunk.css",
+    "main.js": "/static/js/main.a3202a49.chunk.js",
+    "main.js.map": "/static/js/main.a3202a49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a35332e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a35332e7.js.map",
+    "static/css/2.80765319.chunk.css": "/static/css/2.80765319.chunk.css",
+    "static/js/2.5900670e.chunk.js": "/static/js/2.5900670e.chunk.js",
+    "static/js/2.5900670e.chunk.js.map": "/static/js/2.5900670e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.80765319.chunk.css.map": "/static/css/2.80765319.chunk.css.map",
+    "static/css/main.4eef6002.chunk.css.map": "/static/css/main.4eef6002.chunk.css.map",
+    "static/js/2.5900670e.chunk.js.LICENSE.txt": "/static/js/2.5900670e.chunk.js.LICENSE.txt",
+    "static/media/dog1.6012e7ac.jpg": "/static/media/dog1.6012e7ac.jpg",
+    "static/media/dog2.2a171605.jpg": "/static/media/dog2.2a171605.jpg",
+    "static/media/transp-small-logo.36e70169.png": "/static/media/transp-small-logo.36e70169.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a35332e7.js",
+    "static/css/2.80765319.chunk.css",
+    "static/js/2.5900670e.chunk.js",
+    "static/css/main.4eef6002.chunk.css",
+    "static/js/main.a3202a49.chunk.js"
+  ]
 }
