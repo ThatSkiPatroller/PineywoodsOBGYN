@@ -6,7 +6,6 @@ import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
 import Updates from './Pages/Updates';
 
-import "./App.css";
 
 function App () {
   return(

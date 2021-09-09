@@ -1,15 +1,16 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import pat from '../../Images/pat.jpg';
-import pete from '../../Images/Pictures.png'
+import dog1 from '../../Images/dog1.jpg';
+import dog2 from '../../Images/dog2.jpg';
+import './style.css';
 
 const images = [
     {
-        original: pat,
+        original: dog1,
         description: 'The best of the best',
     },
     {
-        original: pete,
+        original: dog2,
     }
 ]
 
