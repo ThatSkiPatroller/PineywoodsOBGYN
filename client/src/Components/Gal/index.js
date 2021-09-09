@@ -15,33 +15,12 @@ const images = [
     }
 ]
 
-class Gal extends Component {
-    render(){
+function Gal () {
     return (
         <div>
             <ImageGallery items={images}/>
         </div>
     )
-    }
 }
-
-// const images = [
-//     {
-//         original: dog1,
-//         description: 'The best of the best'
-//     },
-//     {
-//         original: dog2,
-//         description: 'Lorem ipsum Lorem ipsum'
-//     }
-// ]
-
-// function Gal () {
-//     return (
-//         <div>
-//             <ImageGallery items={images}/>
-//         </div>
-//     )
-// }
 
 export default Gal;
