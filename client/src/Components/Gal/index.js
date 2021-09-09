@@ -7,10 +7,11 @@ import './style.css';
 const images = [
     {
         original: dog1,
-        description: 'The best of the best',
+        description: 'The best of the best'
     },
     {
         original: dog2,
+        description: 'Lorem ipsum Lorem ipsum'
     }
 ]
 

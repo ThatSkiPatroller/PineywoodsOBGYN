@@ -1,4 +1,3 @@
-import { AutoInit } from 'materialize-css';
 import React from 'react';
 import ImageFadeIn from 'react-image-fade-in';
 import logo from '../../Images/transp-small-logo.png'
