@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
-import dog1 from '../../Images/dog1.jpg';
-import dog2 from '../../Images/dog2.jpg';
+import a from '../../BabyPics/a.jpeg';
+import b from '../../BabyPics/b.jpeg';
+import c from '../../BabyPics/c.jpeg'; 
+import d from '../../BabyPics/d.jpg';
+import e from '../../BabyPics/e.jpg';
 import './style.css';
 
 const images = [
     {
-        original: dog1,
-        description: 'The best of the best'
+        original: a,
+        description: 'Levi Caycoya DOB: 8/3/21'
     },
     {
-        original: dog2,
-        description: 'Lorem ipsum Lorem ipsum'
+        original: b,
+        description: 'Levi Caycoya DOB: 8/3/21'
+    },
+    {
+        original: c,
+        description: 'Levi Caycoya DOB: 8/3/21'
+    },
+    {
+        original: d,
+        description: ''
+    },
+    {
+        original: e,
+        description: 'Bryson'
     }
 ]
 
