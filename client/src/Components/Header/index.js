@@ -31,7 +31,7 @@ function Header () {
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item" href="#">Laser Treatment</a></li>
-            <li><a className="dropdown-item" href="#">Ultrasound</a></li>
+            <li><a className="dropdown-item" href="#">3D Ultrasound</a></li>
             <li><a className="dropdown-item" href="#">Pumpkins</a></li>
           </ul>
         </li>
