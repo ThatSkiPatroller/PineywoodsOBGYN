@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from '../Components/Header';
-import Services from '../Components/Services';
+import Headings from '../Components/Headings';
+import LeftProfile from '../Components/LeftProfile';
+
 
 function AboutUs () {
     return (
         <div>
             <Header />
-            <Services />
+            <Headings header='Staff Members' />
+            <LeftProfile />
         </div>
     )
 }

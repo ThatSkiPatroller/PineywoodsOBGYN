@@ -20,7 +20,7 @@ img {
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
 .navbar {
-    background-color: bisque !important;
+    background-color: rgb(250, 207, 166) !important;
 }
 
 li a {
