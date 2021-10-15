@@ -1,0 +1,35 @@
+.spongebob {
+    background-color: blue;
+    height: 300px;
+    padding: 50px;
+}
+
+.patrick {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.bio {
+    position:relative;
+    width: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -150px
+}
+
+.bob {
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.jeff {
+    padding-top: 150px;
+}
+
+.chad {
+    padding-top: 50px;
+    
+}
