@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 function GoogMap () {
     
@@ -14,12 +14,13 @@ function GoogMap () {
 
     return (
         <LoadScript
-        googleMapsApiKey='AIzaSyBnAsEf6nQxgoZchu_-fhVa3qleLyxjhuo'>
+        googleMapsApiKey='AIzaSyC9r_0ONzMoOyUYewrxMScWrz2xOgP1ZJ0'>
             <GoogleMap  
                 mapContainerStyle={mapStyles}
                 zoom={13}
                 center={defaultCenter}
                 />
+                <Marker position={{lat: defaultCenter.lat, lng: defaultCenter.lng}} />
         </LoadScript>
     )
 }
