@@ -1,7 +1,8 @@
 import React from "react";
 import Header from '../Components/Header';
 import FadeInLogo from "../Components/FadeInLogo";
-import Slider from '../Components/Slide'
+import Slider from '../Components/Slide';
+import GoogMap from "../Components/GoogMap";
 
 function Home () {
     return (
@@ -9,6 +10,7 @@ function Home () {
             <Header/>
             <FadeInLogo />
             <Slider />
+            <GoogMap />
         </div>
     )
 }

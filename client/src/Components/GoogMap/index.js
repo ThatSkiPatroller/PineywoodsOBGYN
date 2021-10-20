@@ -9,12 +9,12 @@ function GoogMap () {
     }
 
     const defaultCenter = {
-        lat: 41.3851, lng: 2.1734
+        lat: 31.3296, lng: -94.7519
     }
 
     return (
         <LoadScript
-        googleMapsApiKey=''>
+        googleMapsApiKey='AIzaSyBnAsEf6nQxgoZchu_-fhVa3qleLyxjhuo'>
             <GoogleMap  
                 mapContainerStyle={mapStyles}
                 zoom={13}

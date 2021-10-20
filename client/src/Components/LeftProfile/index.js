@@ -28,10 +28,12 @@ function LeftProfile () {
             <p className='bob'><img src={Jana} height='400px'/></p>
             <div className='chad'>
                 <h1 ><b>Jana Brazil, R.N.</b></h1>
-            </div>
-            <div className='jeff'>
+                <br />
                 <p >
                     This is where Jana's bio will go. This line is to see if page ia responsive
+                </p>
+                <p>
+                    Also don't forget to put fancy text box right here later
                 </p>
             </div>
         </div>
