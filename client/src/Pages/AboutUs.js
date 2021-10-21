@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Components/Header';
 import Headings from '../Components/Headings';
 import LeftProfile from '../Components/LeftProfile';
-import 
+import ProfilePics from '../ProfilePics';
 
 
 function AboutUs () {
@@ -10,7 +10,8 @@ function AboutUs () {
         <div>
             <Header />
             <Headings header='Staff Members' />
-            <LeftProfile />
+            <LeftProfile picture={ProfilePics.Suiter}/>
+            <LeftProfile picture={ProfilePics.Jana} />
         </div>
     )
 }

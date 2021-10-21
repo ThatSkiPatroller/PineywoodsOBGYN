@@ -2,16 +2,6 @@ import { keys } from '@material-ui/core/styles/createBreakpoints';
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import BabyPics from '../../BabyPics';
-// import a from '../../BabyPics/a.jpeg';
-// import b from '../../BabyPics/b.jpeg';
-// import c from '../../BabyPics/c.jpeg'; 
-// import d from '../../BabyPics/d.jpg';
-// import e from '../../BabyPics/e.jpg';
-// import f from '../../BabyPics/f.jpeg';
-// import g from '../../BabyPics/g.jpeg';
-// import h from '../../BabyPics/h.jpeg';
-// import i from '../../BabyPics/i.jpg';
-// import j from '../../BabyPics/'
 import './style.css';
 
 const images = [
