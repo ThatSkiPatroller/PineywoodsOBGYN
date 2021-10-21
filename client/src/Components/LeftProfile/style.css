@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
 
-.spongebob {
-    background-color: blue;
-    height: 400px;
-    padding: 50px;
-}
-
-.patrick {
-    height: 400px;
-    width: 200px;
-    margin-left: 40px;
-}
-
-.bio {
-    position:relative;
-    width: 500px;
-    float: right;
-    margin-right: 50px;
-    margin-top: -150px
-}
-
 .bob {
     float: left;
     padding-left: 50px;
@@ -36,8 +16,8 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .chad {
         font-size: 590px;
     }
-} 
+}  */

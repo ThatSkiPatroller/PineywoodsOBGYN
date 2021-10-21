@@ -10,8 +10,9 @@ function AboutUs () {
         <div>
             <Header />
             <Headings header='Staff Members' />
-            <LeftProfile picture={ProfilePics.Suiter}/>
-            <LeftProfile picture={ProfilePics.Jana} />
+            <LeftProfile picture={ProfilePics.Suiter} name='Dr. Cheryl Suiter, OBGYN' bio=''/>
+            <LeftProfile picture={ProfilePics.Jana} name='Jana Brazil, R.N.'/>
+            <LeftProfile picture={ProfilePics.Vicki} />
         </div>
     )
 }

@@ -6,6 +6,8 @@ import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
 import Updates from './Pages/Updates';
 import Laser from "./Pages/Laser";
+import Ultrasound from "./Pages/Ultrasound";
+
 
 
 function App () {
@@ -16,6 +18,7 @@ function App () {
         <Route exact path='/Gallery' component={Gallery} />
         <Route exact path='/Updates' component={Updates} />
         <Route exact path='/Laser' component={Laser} />
+        <Route exact path='/Ultrasound' component={Ultrasound} />
     </HashRouter>
   )
 }

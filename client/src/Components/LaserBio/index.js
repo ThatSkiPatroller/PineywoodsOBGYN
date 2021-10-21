@@ -1,9 +1,12 @@
 import React from 'react';
+import ProfilePics from '../../ProfilePics';
+import './style.css';
 
 function LaserBio () {
     return(
         <div>
-            <p>Over the course of a lifetime, every woman feels the effects of childbirht and aging. 
+            <img src={ProfilePics.Laser} id='laser'/>
+            <p> Over the course of a lifetime, every woman feels the effects of childbirht and aging. 
                 With the loss of vaginal tone, lubrication, and elasticity, women can often benefit from CO2RE
                 Intima laser treatments. With the loss of elasticity and tone, women often suffer from stress urinary 
                 Incontinence (loss of urine with movement, cough or sneezing). We offer a non surgical and non painful 
