@@ -12,7 +12,7 @@ const ProfilePics = {
     SuiterProfile: require('./SuiterProfile.jpg').default,
     SuiterProfile2: require('./SuiterProfile2.jpg').default,
     SuiterSign: require('./SuiterSign.jpg').default,
-    SuiterUltrasound: require('./SuiterUltrasound.png').default,
+    SuiterUltrasound: require('./SuiterUltrasound.jpg').default,
     Vicki: require('./Vicki.jpg').default
 }
 
