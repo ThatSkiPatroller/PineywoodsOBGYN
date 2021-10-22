@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pineywoods",
+  "name": "Pineywoods OBGYN",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "192x192",
+      "sizes": "1926x1981",
       "type": "image/png"
     }
   ],
