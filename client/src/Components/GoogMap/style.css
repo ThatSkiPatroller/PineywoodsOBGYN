@@ -8,14 +8,22 @@
     margin: 10px;
     align-content: center;
     margin-top: 35px;
+    display:flex;
 }
 
 .fred {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+.steve {
+    padding:20px;
+}
+
+@media only screen and (max-width: 767px) {
     .mike {
       width: 400px;
+    }
+    .steve {
+        padding-left: 30px;
     }
 }
