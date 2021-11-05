@@ -1,0 +1,21 @@
+.mike {
+    padding: 20px;
+    background-color: bisque !important;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 900;
+    width: 700px;
+    height: auto;
+    margin: 10px;
+    align-content: center;
+    margin-top: 35px;
+}
+
+.fred {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .mike {
+      width: 400px;
+    }
+}
