@@ -26,6 +26,7 @@ img {
 li a {
     color: rgb(30, 124, 30) !important;
     font-family: 'Gilda Display', serif;
-    font-weight: 900;
+    font-weight: 1000;
+    font-size: 20px;
     
 }

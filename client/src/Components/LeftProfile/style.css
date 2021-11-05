@@ -5,7 +5,7 @@
     padding-left: 50px;
 }
 
-.chad {
+.roony {
     font-family: 'Old Standard TT', serif;
     color: bisque;
     display: inline-block;
@@ -13,6 +13,7 @@
     padding-top: 10px;
     margin: 20px;
     font-size: 15px;
+    max-width: 600px;
 }
 
 

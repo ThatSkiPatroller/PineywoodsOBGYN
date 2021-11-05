@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Components/Header';
 import Headings from '../Components/Headings';
 import LeftProfile from '../Components/LeftProfile';
+import RightProfile from '../Components/RightProfile';
 import ProfilePics from '../ProfilePics';
 
 
@@ -18,7 +19,7 @@ function AboutUs () {
                 She has been in practice since 1998 in Lufkin. She has mentored nurses, nurse practitioners, medical students, and ultrasound techs over the years. She loves to teach and loves ultrasound. She has recently authored an article “Be a Warrior, Not Just a Survivor “ after a journey with breast cancer. She has been voted Best of Lufkin for many years and was Healthcare Provider of the year for Angelina County in 2016.
                 Dr. Suiter practices the full scope of Obstetrics and Gynecology, including doing her own ultrasounds. She has been married to her husband Wes, since 1982. They have a son Trace whom has recently graduated from University of Texas.'
             />
-            <LeftProfile picture={ProfilePics.Jana} name='Jana Brazil, R.N.'/>
+            <RightProfile picture={ProfilePics.Jana} name='Jana Brazil, R.N.'/>
         </div>
     )
 }
