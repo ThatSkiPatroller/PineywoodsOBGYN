@@ -1,5 +1,13 @@
-#laser {
+.laser {
     height: 500px;
     width: auto;
     padding: 25px;
+}
+
+.jared {
+    max-width: 700px;
+    background-color: rgb(74, 97, 78) !important;
+    color: bisque !important;
+    font-size: 20px !important;
+    padding: 20px;
 }
