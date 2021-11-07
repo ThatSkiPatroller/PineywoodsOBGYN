@@ -5,3 +5,15 @@
   background-size: cover;
   height: 350px;
 }
+
+.laviathan {
+  position:absolute;
+  z-index: 1;
+  margin-left: -200px;
+  left: 50%;
+}
+
+.hercules {
+  display:flex;
+  justify-content: center;
+}
