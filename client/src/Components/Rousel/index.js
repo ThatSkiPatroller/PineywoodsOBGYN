@@ -13,7 +13,6 @@ function Rousel () {
         </div>
         <div className='hercules'>
         <Carousel 
-          width='100%'
           showArrows={false}
           showStatus={false}
           showThumbs={false}
@@ -21,17 +20,17 @@ function Rousel () {
           autoPlay={true}
           interval={3000}
           infiniteLoop={true}
-          dynamicHeight={true}
+          dynamicHeight={false}
           stopOnHover={false}
         >
           <div>
-            <img src={ProfilePics.Vicki} />
+            <img src={ProfilePics.Crystal} className='carou'/>
           </div>
           <div>
-            <img src={ProfilePics.JanaBrendaKelli} />
+            <img src={ProfilePics.JanaBrendaKelli} className='carou'/>
           </div>
           <div>
-            <img src={ProfilePics.Crystal} />
+            <img src={ProfilePics.Vicki} className='carou'/>
           </div>
         </Carousel>
         </div>
