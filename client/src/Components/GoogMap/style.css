@@ -1,29 +1,31 @@
 .mike {
-    padding: 20px;
-    background-color: bisque !important;
-    font-family: 'Old Standard TT', serif;
-    font-weight: 900;
-    width: 700px;
-    height: auto;
-    margin: 10px;
-    align-content: center;
-    margin-top: 35px;
-    display:flex;
+  padding: 20px;
+  background-color: bisque !important;
+  font-family: "Old Standard TT", serif;
+  font-weight: 900;
+  width: 700px;
+  height: auto;
+  margin: 10px;
+  align-content: center;
+  margin-top: 35px;
+  display: flex;
 }
 
 .fred {
-    text-align: center;
+  text-align: center;
 }
 
 .steve {
-    padding:20px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 767px) {
-    .mike {
-      width: 400px;
-    }
-    .steve {
-        padding-left: 30px;
-    }
+  .mike {
+    width: 400px;
+  }
+  .steve {
+    padding-left: 30px;
+  }
 }

@@ -37,20 +37,20 @@ function GoogMap () {
                     <h1>Phone Number: </h1> <p>936-699-7575</p>
                     <h1>Address:</h1> <p>402 Gaslight Blvd, Lufkin, Tx</p>
                 </div>
-            <div className='col-md-6 steve'>
-                <LoadScript
-                googleMapsApiKey='AIzaSyC9r_0ONzMoOyUYewrxMScWrz2xOgP1ZJ0'>
-                    <GoogleMap  
-                        mapContainerStyle={mapStyles}
-                        zoom={14}
-                        center={defaultCenter}
-                        options={ops}
-                    >
-                        <Marker position={defaultCenter} label={label}/>
-                    </GoogleMap>
-                </LoadScript>
+                <div className='col-md-6 steve'>
+                    <LoadScript
+                    googleMapsApiKey='AIzaSyC9r_0ONzMoOyUYewrxMScWrz2xOgP1ZJ0'>
+                        <GoogleMap  
+                            mapContainerStyle={mapStyles}
+                            zoom={14}
+                            center={defaultCenter}
+                            options={ops}
+                        >
+                            <Marker position={defaultCenter} label={label}/>
+                        </GoogleMap>
+                    </LoadScript>
+                </div>
             </div>
-        </div>
         </Card>
     )
 }

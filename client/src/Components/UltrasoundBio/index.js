@@ -5,8 +5,8 @@ import './style.css';
 function UltrasoundBio () {
     return(
         <div>
-            <img src={ProfilePics.SuiterUltrasound} id='ultrasound'/>
-            <p></p>
+            {/* <img src={ProfilePics.SuiterUltrasound} id='ultrasound'/> */}
+            <div className='circleBase'></div>
         </div>
     )
 }
