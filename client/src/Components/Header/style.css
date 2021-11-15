@@ -20,11 +20,11 @@ img {
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
 .navbar {
-    background-color: rgb(250, 207, 166) !important;
+    background-color: bisque !important;
 }
 
 li a {
-    color: rgb(30, 124, 30) !important;
+    color: rgb(3, 109, 8) !important;
     font-family: 'Gilda Display', serif;
     font-weight: 1000;
     font-size: 20px;

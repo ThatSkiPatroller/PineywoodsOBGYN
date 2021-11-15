@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
 .laser {
-    height: 500px;
+    height: 700px;
     width: auto;
-    padding: 25px;
+    margin-top: 50px;
 }
 
 .jared {
@@ -10,4 +12,49 @@
     color: bisque !important;
     font-size: 20px !important;
     padding: 20px;
+}
+
+.duke {
+    display: inline-block;
+    max-width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+    text-shadow: 2px 2px black;
+    font-family: 'Corben', cursive;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.row {
+    text-align: center;
+}
+
+.harvard {
+    margin-bottom: 50px;
+    
+    position: relative;
+    margin-top: 30px;
+    /* background-image: url(../../Images/manyLasers.png);
+    background-repeat: no-repeat; */
+}
+
+.largeText {
+    font-family: 'Playball', cursive;
+    z-index: 1;
+    font-size: 40px;
+    opacity: 100%;
+}
+
+.manyLasers {
+    height: 900px;
+    width: auto;
+    position: absolute;
+    transform: translate(-450px, 0px);
+    z-index: 0;
+}
+
+.prinston {
+    border-radius: 5%;
+    background-color: rgb(255, 228, 196, .5);
 }

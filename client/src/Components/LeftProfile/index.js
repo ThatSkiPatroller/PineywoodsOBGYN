@@ -6,36 +6,15 @@ import './style.css';
 
 function LeftProfile (props) {
     return(
-        //  <div>
-        //     <div className='col-12'>
-        //          <div className='row'>
-        //             <div className='col'>
-        //                 <p className='bob'><img src={props.picture} height='400px'/></p>
-        //                     <div className='row'>
-        //                         <div className='col'>
-        //                             <Card className='roony'>
-        //                                 <h1 ><b>{props.name}</b></h1>
-        //                                 <br />
-        //                                 <h1 className='coshey'>
-        //                                 {props.bio}
-        //                                 </h1>
-        //                             </Card>
-        //                         </div> 
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        
+
         <div className='robot'>
             <div className='row'>
                 <div className='col-4'>
-                    <p className='felix'><img src={props.picture} height='400px'/></p>
+                    <p className='felix'><img src={props.picture}/></p>
                 </div>
                 <div className='col-8'>
                     <Card className='roony'>
-                        <h1><b>{props.name}</b></h1>
-                       
+                        <h1 className='rudolph'><b>{props.name}</b></h1>
                         <h1 className='coshey'>
                             {props.bio}
                         </h1>
@@ -43,6 +22,7 @@ function LeftProfile (props) {
                 </div>
             </div>
         </div>
+
     )
 }
 

@@ -16,7 +16,7 @@ function RightProfile (props) {
                     </Card>
                 </div>
                 <div className='col-4'>
-                    <p className='icecream'><img src={props.picture} height='400px'/></p>
+                    <p className='icecream'><img src={props.picture}/></p>
                 </div>
             </div>
         </div>

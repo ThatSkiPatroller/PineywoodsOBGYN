@@ -3,6 +3,7 @@
 .icecream {
     display: flex;
     justify-content: center;
+    height: 400px;
 }
 
 .rooftop {
@@ -32,8 +33,9 @@
 }
 
 
-/* @media only screen and (max-width: 600px) {
-    .chad {
-        font-size: 590px;
+@media only screen and (max-width: 767px) {
+    
+    .icecream {
+        height: 200px;
     }
-}  */
+}
