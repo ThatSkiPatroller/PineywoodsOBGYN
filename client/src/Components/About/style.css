@@ -1,0 +1,18 @@
+.staff {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 180px;
+}
+
+.bg {
+    background-image: url('../../Images/blackborder.png');
+    background-size: 800px 600px;
+    height: 900px;
+    background-repeat:no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+}

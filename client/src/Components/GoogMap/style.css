@@ -8,7 +8,6 @@
   margin: 10px;
   align-content: center;
   margin-top: 35px;
-  display: flex;
 }
 
 .fred {
@@ -17,15 +16,13 @@
 
 .steve {
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 @media only screen and (max-width: 767px) {
   .mike {
     width: 400px;
   }
-  .steve {
-    padding-left: 30px;
-  }
+  
 }
