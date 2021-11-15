@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
 .jack {
     background-color: rgb(255, 203, 155) !important;
     height: 300px;
@@ -5,3 +7,37 @@
     border-radius: 50%;
     margin: auto;
 }
+
+.containerZ {
+    position: relative;
+    text-align: center;
+    font-family:'Gluten', cursive;;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+}
+
+.nathaniel {
+    width: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .nathaniel {
+      width: 400px;
+    }
+
+    .containerZ {
+        font-size: 11px;
+    }
+    
+  }
