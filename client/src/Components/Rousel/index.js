@@ -6,6 +6,7 @@ import FadeInLogo from "../FadeInLogo";
 import './style.css'
 
 function Rousel () {
+
   return (
       <div>
         <div className='laviathan'>

@@ -2,7 +2,7 @@ import React from 'react';
 import ProfilePics from '../../ProfilePics';
 import './style.css';
 
-function UltrasoundBio () {
+function CircleProfile () {
     return(
         <div>
             {/* <img src={ProfilePics.SuiterUltrasound} id='ultrasound'/> */}
@@ -25,4 +25,4 @@ function UltrasoundBio () {
     )
 }
 
-export default UltrasoundBio
+export default CircleProfile;
