@@ -19,10 +19,11 @@ function Rousel () {
           showThumbs={false}
           showIndicators={false}
           autoPlay={true}
-          interval={3000}
+          interval={4000}
           infiniteLoop={true}
           dynamicHeight={false}
           stopOnHover={false}
+          animationHandler={'fade'}
         >
           <div>
             <img src={ProfilePics.Crystal} className='carou'/>
