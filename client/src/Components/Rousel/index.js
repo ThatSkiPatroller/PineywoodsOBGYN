@@ -9,9 +9,9 @@ function Rousel () {
 
   return (
       <div>
-        <div className='laviathan'>
+        {/* <div className='laviathan'>
         <FadeInLogo />
-        </div>
+        </div> */}
         <div className='hercules'>
         <Carousel 
           showArrows={false}
