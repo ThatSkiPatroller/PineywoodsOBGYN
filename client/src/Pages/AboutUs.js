@@ -4,13 +4,14 @@ import Headings from '../Components/Headings';
 import LeftProfile from '../Components/LeftProfile';
 import RightProfile from '../Components/RightProfile';
 import ProfilePics from '../ProfilePics';
-
+import AllStaff from '../Components/AllStaff';
 
 function AboutUs () {
     return (
         <div>
             <Header />
             <Headings header='Staff Members' />
+            <AllStaff />
             <LeftProfile 
                 picture={ProfilePics.SuiterProfile} 
                 name='Dr. Cheryl Suiter, OBGYN' 

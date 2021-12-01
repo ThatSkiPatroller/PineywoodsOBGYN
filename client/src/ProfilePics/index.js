@@ -1,19 +1,19 @@
 const ProfilePics = {
-    Crystal: require('./Crystal&Cynthia.jpg').default,
-    Jana: require('./Jana.jpg').default,
-    JanaBrenda: require('./Jana&Brenda.jpg').default,
-    JanaSuiter: require('./Jana&Suiter.jpg').default,
-    JanaBrendaKelli: require('./JanaBrendaKelli6.jpg').default,
-    Laser: require('./Laser.jpg').default,
-    OfficeStaff: require('./OfficeStaff.jpg').default,
-    PtVicki: require('./Pt&Vicki.jpg').default,
-    Sandra: require('./Sandra.jpg').default,
-    Suiter: require('./Suiter.jpg').default,
-    SuiterProfile: require('./SuiterProfile.jpg').default,
-    SuiterProfile2: require('./SuiterProfile2.jpg').default,
-    SuiterSign: require('./SuiterSign.jpg').default,
-    SuiterUltrasound: require('./SuiterUltrasound.png').default,
-    Vicki: require('./Vicki5.jpg').default
+    Crystal: require('./Crystal&Cynthia.webp').default,
+    Jana: require('./Jana.webp').default,
+    JanaBrenda: require('./Jana&Brenda.webp').default,
+    JanaSuiter: require('./Jana&Suiter.webp').default,
+    JanaBrendaKelli: require('./JanaBrendaKelli6.webp').default,
+    Laser: require('./Laser.webp').default,
+    OfficeStaff: require('./OfficeStaff.webp').default,
+    PtVicki: require('./Pt&Vicki.webp').default,
+    Sandra: require('./Sandra.webp').default,
+    Suiter: require('./Suiter.webp').default,
+    SuiterProfile: require('./SuiterProfile.webp').default,
+    SuiterProfile2: require('./SuiterProfile2.webp').default,
+    SuiterSign: require('./SuiterSign.webp').default,
+    SuiterUltrasound: require('./SuiterUltrasound.webp').default,
+    Vicki: require('./Vicki5.webp').default
 }
 
 export default ProfilePics;

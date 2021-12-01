@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { propTypes } from 'react-image-fade-in';
-import Jana from '../../ProfilePics/Jana.jpg'
 import { Card } from '@material-ui/core';
 import './style.css';
 
