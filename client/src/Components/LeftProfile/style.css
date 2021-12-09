@@ -1,61 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
 
 .felix {
-    display: flex;
-    justify-content: center;
-    height: 400px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
 }
 
 .roony {
-    font-family: 'Old Standard TT', serif;
-    color: bisque !important;
-    display: block;
-    padding: 20px;
-    max-width: 1500px;
-    max-height: 400px;
-    background-color: rgb(74, 97, 78) !important;
-    margin-right:20px;
-    text-align: center;
+  font-family: "Old Standard TT", serif;
+  color: bisque !important;
+  display: block;
+  padding: 20px;
+  max-width: 1500px;
+  max-height: 400px;
+  background-color: rgb(74, 97, 78) !important;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .coshey {
-    display: flex;
-    line-height: 1.3;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    min-width: 300px;
+  display: flex;
+  line-height: 1.3;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  min-width: 300px;
 }
 
 .robot {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 
 @media only screen and (max-width: 767px) {
-    
-    .felix {
-        height: 200px;
-        transform: translate(0, 50px);
-    }
+  .felix {
+    height: 200px;
+    transform: translate(0, 50px);
+  }
 
-    .coshey {
-        font-size: 11px;
-    }
+  .coshey {
+    font-size: 11px;
+  }
 
-    .rudolph {
-        font-size: 14px;
-    }
+  .rudolph {
+    font-size: 14px;
+  }
 
-    .roony {
-        width: 330px
-    }
+  .roony {
+    width: 330px;
+  }
 }
 
-@media only screen and (min-width: 767px) {
+/* @media only screen and (min-width: 767px) {
 
     .roony {
         width: 500px
     }
-}
+} */

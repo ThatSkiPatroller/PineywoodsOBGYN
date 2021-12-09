@@ -50,7 +50,9 @@ function GridGallery () {
     }]
 
     return(
-        <Gallery images={IMAGES}/>
+        <div className='ultrasoundpics'>
+            <Gallery images={IMAGES}/>
+        </div>
     );
 }
 

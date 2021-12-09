@@ -1,60 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
 
 .laser {
-    height: 700px;
-    width: auto;
-    margin-top: 50px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 .jared {
-    max-width: 700px;
-    background-color: rgb(74, 97, 78) !important;
-    color: bisque !important;
-    font-size: 20px !important;
-    padding: 20px;
+  max-width: 700px;
+  background-color: rgb(74, 97, 78) !important;
+  color: bisque !important;
+  font-size: 20px !important;
+  padding: 20px;
 }
 
 .duke {
-    display: inline-block;
-    max-width: 600px;
-    margin-left:auto;
-    margin-right: auto;
-    text-shadow: 2px 2px black;
-    font-family: 'Corben', cursive;
-    font-size: 25px;
-    color: white;
-    
+  display: inline-block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px black;
+  font-family: "Corben", cursive;
+  font-size: 25px;
+  color: white;
 }
 
 .row {
-    text-align: center;
+  text-align: center;
 }
 
 .harvard {
-    margin-bottom: 50px;
-    
-    position: relative;
-    margin-top: 30px;
-    /* background-image: url(../../Images/manyLasers.png);
+  margin-bottom: 50px;
+
+  position: relative;
+  margin-top: 30px;
+  /* background-image: url(../../Images/manyLasers.png);
     background-repeat: no-repeat; */
 }
 
 .largeText {
-    font-family: 'Playball', cursive;
-    z-index: 1;
-    font-size: 40px;
-    opacity: 100%;
+  font-family: "Playball", cursive;
+  z-index: 1;
+  font-size: 40px;
+  opacity: 100%;
 }
 
 .manyLasers {
-    height: 900px;
-    width: auto;
-    position: absolute;
-    transform: translate(-450px, 0px);
-    z-index: 0;
+  height: 900px;
+  width: auto;
+  position: absolute;
+  transform: translate(-450px, 0px);
+  z-index: 0;
 }
 
 .prinston {
-    border-radius: 5%;
-    background-color: rgb(255, 228, 196, .5);
+  border-radius: 5%;
+  background-color: rgb(255, 228, 196, 0.5);
+}
+
+@media only screen and (max-width: 1000px) {
+  .prinston {
+    width: 300px;
+  }
+
+  .manyLasers {
+    width: 400px;
+  }
+
+  .duke {
+    font-size: 15px;
+  }
+
+  .laser {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .prinston {
+    width: 300px;
+  }
+
+  .manyLasers {
+    width: 400px;
+  }
+
+  .duke {
+    font-size: 15px;
+  }
+
+  .laser {
+    height: 00px;
+  }
 }

@@ -14,16 +14,14 @@ import { Divider } from "@material-ui/core";
 
 function App () {
   return (
-    
-        <HashRouter>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/AboutUs' component={AboutUs} />
-        <Route exact path='/Gallery' component={Gallery} />
-        <Route exact path='/Updates' component={Updates} />
-        <Route exact path='/Laser' component={Laser} />
-        <Route exact path='/Ultrasound' component={Ultrasound} />
-      </HashRouter> 
-
+    <HashRouter>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/AboutUs' component={AboutUs} />
+      <Route exact path='/Gallery' component={Gallery} />
+      <Route exact path='/Updates' component={Updates} />
+      <Route exact path='/Laser' component={Laser} />
+      <Route exact path='/Ultrasound' component={Ultrasound} />
+    </HashRouter> 
   )
 }
 

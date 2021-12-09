@@ -115,7 +115,7 @@ const images = [
 function Gal () {
     return (
         <div>
-            <ImageGallery items={images}/>
+            <ImageGallery items={images}/> 
         </div>
     )
 }
