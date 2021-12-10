@@ -1,10 +1,12 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { Card } from '@material-ui/core';
+import FB from '../../Images/facebookThumbLike.png'
 import './style.css';
 
-function GoogMap () {
-    
+function GoogMap (props) {
+
+
     const mapStyles = {
         height: '25vh',
         width: '25vh'
@@ -51,6 +53,10 @@ function GoogMap () {
                     </LoadScript>
                 </div>
             </div>
+            <div className='FbText'>
+                <img src={FB} className='FbThumb' onClick={(event) => {event.preventDefault, console.log('hello')}}/>
+            </div>
+            
         </Card>
     )
 }

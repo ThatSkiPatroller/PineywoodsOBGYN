@@ -25,6 +25,9 @@ function Rousel () {
           stopOnHover={false}
           animationHandler={'fade'}
         >
+          {/* <div>
+            <img src={ProfilePics.SuiterProfile2} className='newYork' />
+          </div> */}
           <div>
             <img src={ProfilePics.Crystal} className='carou'/>
           </div>

@@ -3,6 +3,7 @@ import Header from '../Components/Header';
 import Slider from '../Components/Slide';
 import GoogMap from "../Components/GoogMap";
 import Rousel from '../Components/Rousel';
+import Facebook from "../Components/Facebook";
 
 function Home () {
     return (
@@ -11,6 +12,7 @@ function Home () {
             <Rousel />
             <Slider />
             <GoogMap />
+            <Facebook />
         </div>
     )
 }

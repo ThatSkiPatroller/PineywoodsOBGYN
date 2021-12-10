@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo1 from '../../Images/scaled-logo.png';
+import Logo1 from '../../Images/scaled-logo.webp';
 import './style.css';
 
 // ms-auto = right align, mx-auto = center, ml = left align

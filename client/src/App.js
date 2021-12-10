@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { useState, useEffect } from "react";
-import { HashRouter, Route } from  "react-router-dom";
+import { HashRouter, Route, Routes } from  "react-router-dom";
 import Home from './Pages/Home';
 import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
