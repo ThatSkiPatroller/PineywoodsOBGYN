@@ -1,6 +1,23 @@
-.ultrasoundpics {
-  display: flex;
-  margin-right: auto;
+.container-div-grid-gallery {
+  margin: 20px;
+}
+
+.grid-gal {
+  display: block;
   margin-left: auto;
-  justify-content: center;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1264px) {
+  .container-div-grid-gallery {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .container-div-grid-gallery {
+    margin-left: 600px;
+    margin-right: 600px;
+  }
 }

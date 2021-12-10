@@ -10,7 +10,7 @@ function UltraBio () {
             <div className='col-md-6'>
                 <img src={ProfilePics.SuiterUltrasound} className='suiterultrasoundpic'/>
             </div>
-            <div className='col-md-6 duke'>
+            <div className='col-md-6 ultraParentDiv'>
                 
                 <div className='ultraDiv mx-auto'>
                 <div className='ultraText'>
