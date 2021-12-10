@@ -74,7 +74,7 @@ function GridGallery () {
 
     return(
         <div className='container-div-grid-gallery'>
-            <Gallery images={IMAGES} className='grid-gal'/>
+            <Gallery rowHeight='180' images={IMAGES}/>
         </div>
     );
 }
