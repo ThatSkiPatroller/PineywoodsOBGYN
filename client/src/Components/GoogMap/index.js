@@ -56,7 +56,6 @@ function GoogMap (props) {
             <div className='FbText'>
                 <img src={FB} className='FbThumb' onClick={(event) => {event.preventDefault, console.log('hello')}}/>
             </div>
-            
         </Card>
     )
 }

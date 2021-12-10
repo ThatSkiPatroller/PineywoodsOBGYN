@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap');
 
 .suiterultrasoundpic {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   height: auto;
   margin-top: 20px;
   border-style: solid;
@@ -13,32 +13,113 @@
   border-radius: 5%;
   background-color: rgb(255, 228, 196, 0.5);
   z-index: 2;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'BioRhyme', serif;
+  height: auto;
 }
 
 .ultraBtn {
+  width: 400px;
+  background-color: rgb(73, 100, 73) !important;
+  color: white !important;
 }
 
 .ultraParentDiv {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 2px 2px black;
-  color: white;
+  color: rgb(121, 91, 41);
+  text-shadow: 1px 1px 2px white;
 }
+@media screen and (min-width: 1500px) {
+  .ultraDiv {
+    max-width: 700px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding: 30px;
+  }
 
-@media screen and (max-width: 767px) {
+  .ultraBtn {
+    width: 600px;
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1500px) {
+
+  .suiterultrasoundpic {
+    margin-left: 15px;
+  }
+
   .ultraDiv {
     max-width: 500px;
-    margin-top: 30px;
-    padding: 20px;
+    font-size: 18px !important;
     margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 20px;
   }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1050px) {
+
+  .suiterultrasoundpic {
+    margin-left: 15px;
+  }
+
+  .ultraDiv {
+    max-width: 370px;
+    font-size: 15px !important;
+    margin-bottom: 15px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+
+  .ultraDiv {
+    max-width: 450px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
   .suiterultrasoundpic {
     height: auto;
     width: 100%;
     max-width: 400px;
   }
+
+  .ultraBtn {
+    width: 400px;
+  }
 }
+
+@media screen and (min-width: 430px) and (max-width: 500px) {
+
+  .ultraDiv {
+    font-size: 15px;
+    max-width: 400px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 10px;
+  }
+
+  .ultraBtn {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+
+  .ultraDiv {
+    font-size: 13px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .ultraBtn {
+    width: 300px;
+  }
+}
+
 
 
