@@ -25,6 +25,10 @@ li a {
     text-shadow: 2px 2px 2px black;
 }
 
+.dropdown-item:hover {
+    background-color: rgb(36, 128, 67);
+}
+
 @media screen and (max-width: 575px) {
     .navbar-brand {
         max-width: 300px;

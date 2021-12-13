@@ -30,8 +30,8 @@ function Header () {
                   Services
                 </b></a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="/#Laser"><b>Laser Treatment</b></a></li>
-                  <li><a className="dropdown-item" href="/#Ultrasound"><b>3D Ultrasound</b></a></li>
+                  <li><a className="dropdown-item" href="/#Laser"><b>Laser Treatments</b></a></li>
+                  <li><a className="dropdown-item" href="/#Ultrasound"><b>3D Ultrasounds</b></a></li>
                 </ul>
               </li>
               <li className="nav-item mx-auto">

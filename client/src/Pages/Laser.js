@@ -9,7 +9,7 @@ function Laser () {
     return(
     <div>
         <Header />
-        <Headings header='Laser Treatment' />
+        <Headings header='Laser Treatments' />
         <UltraAndLaserBio 
             mainPic={ProfilePics.Laser}
             laserAndUltraTextP1="Over the course of a lifetime, every woman feels the effects of childbirth and aging. 
