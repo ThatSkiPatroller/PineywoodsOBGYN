@@ -8,9 +8,12 @@ function UpdatesDiv () {
             
         // </div>
         <div className='containerZ'>
-            <img src={BackgroundDiv} className='nathaniel' />
+            {/* <img src={BackgroundDiv} className='nathaniel' /> */}
             <div className='centeredText'>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            Please bare with us as this website is still under development. 
+            If you have any comments or issues with the site, please contact Trace Suiter at t.suit@utexas.edu. 
+            You can also send your pictures to this email to be added to the gallery on this website.
+            In the subject of the email, please put 'Pineywoods Site Inquiry' to help me distinguish your email.
             </div>
         </div>
     )

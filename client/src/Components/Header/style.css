@@ -8,13 +8,21 @@ li a {
     font-family: 'Gilda Display', serif;
     font-weight: 1000;
     font-size: 20px;
-    
 }
 
 .transpLogo {
     width: 100%;
     height: auto;
     max-width: 450px;
+}
+
+.dropdown-menu {
+    background-color: rgb(73, 100, 73);
+}
+
+.dropdown-item {
+    color: bisque !important;
+    text-shadow: 2px 2px 2px black;
 }
 
 @media screen and (max-width: 575px) {
