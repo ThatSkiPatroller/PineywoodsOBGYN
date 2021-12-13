@@ -24,6 +24,7 @@ function Rousel () {
           dynamicHeight={false}
           stopOnHover={false}
           animationHandler={'fade'}
+          swipable={false}
         >
           {/* <div>
             <img src={ProfilePics.SuiterProfile2} className='newYork' />
