@@ -5,14 +5,11 @@ In-progress website for Pineywoods OBGYN. Currently using React with express ser
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
 * [Questions](#questions)
 # Installation
 To install the necessary dependencies for this project run npm i
 # Usage
 To use this application run npm start
-# Contributing
-Contributors: @erichand18
 # Questions
 Please see my github: ThatSkiPatroller
 You can ask me questions here: t.suit@utexas.edu

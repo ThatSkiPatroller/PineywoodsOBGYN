@@ -3,7 +3,7 @@ import './style.css';
 
 function Headings (props) {
     return(
-        <div className='tod'>
+        <div className='headingsText'>
             <h1><b>
                 {props.header}
             </b></h1>
