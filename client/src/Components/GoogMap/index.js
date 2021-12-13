@@ -53,9 +53,7 @@ function GoogMap (props) {
                     </LoadScript>
                 </div>
             </div>
-            <div className='FbText'>
-                <img src={FB} className='FbThumb' onClick={(event) => {event.preventDefault, console.log('hello')}}/>
-            </div>
+            <input type='button' onclick="location.href='https://google.com" className='FbText'/>
         </Card>
     )
 }

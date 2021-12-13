@@ -20,6 +20,19 @@
   padding-top: 10px;
 }
 
+.FbThumb {
+   width: 150px;
+   height: 150px;
+}
+
+.FbText {
+  background-image: url(../../Images/facebookThumbLike.png);
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
+
 @media screen and (max-width: 767px) {
   .mike {
     width: 400px;

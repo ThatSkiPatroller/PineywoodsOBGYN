@@ -6,6 +6,9 @@ function AllStaff () {
     return (
         <div>
             <img src={ProfilePics.OfficeStaff} className='staffPic'/>
+            <div className='staffTextDiv'>
+                <h1 className='staffText'>Crystal, Sandra, Jana, Paula, Kelli, Dr. Suiter, Cynthia, </h1>
+            </div>
         </div>
     )
 }

@@ -12,6 +12,7 @@ function AboutUs () {
             <Header />
             <Headings header='Staff Members' />
             <AllStaff />
+            <Headings header='Providers' />
             <LeftProfile 
                 picture={ProfilePics.SuiterProfile} 
                 name='Dr. Cheryl Suiter, OBGYN' 

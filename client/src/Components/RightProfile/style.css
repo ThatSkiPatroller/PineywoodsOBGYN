@@ -6,6 +6,9 @@
   width: 100%;
   max-width: 500px;
   height: auto;
+  border: bisque;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .bioCard2 {
