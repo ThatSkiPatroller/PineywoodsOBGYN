@@ -9,21 +9,24 @@ function LeftProfile (props) {
     return(
         <div className='robot'>
             <div className='row'>
-                <div className='col-4'>
-                    <p className='felix'><img src={props.picture} onClick={() => setClick(true)}/></p>
+                <div className='col-sm-4'>
+                    <img src={props.picture} className='profPic'
+                    // onClick={() => setClick(true)}
+                    />
                 </div>
-                {click ? 
-                <div className='col-8'>
-                    <Card className='roony'>
-                        <h1 className='rudolph'><b>{props.name}</b></h1>
-                        <h1 className='coshey'>
+                {/* {click ?  */}
+                <div className='col-sm-8'>
+                    <Card className='bioCard'>
+                        <h1 className='bioName'><b>{props.name}</b></h1>
+                        <h1 className='bioBio'>
                             {props.bio}
                         </h1>
                     </Card>
                 </div>
-             : 
+             {/* :  */}
                 <div>
-                </div>}
+                </div>
+                {/* } */}
             </div>
         </div>
 
