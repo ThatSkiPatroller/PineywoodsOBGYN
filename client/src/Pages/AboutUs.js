@@ -5,6 +5,7 @@ import LeftProfile from '../Components/LeftProfile';
 import RightProfile from '../Components/RightProfile';
 import ProfilePics from '../ProfilePics';
 import AllStaff from '../Components/AllStaff';
+import Footer from '../Components/Footer';
 
 function AboutUs () {
     return (
@@ -34,6 +35,7 @@ function AboutUs () {
                 
                 Jana provides excellent care to women in both obstetrics and gynecology. She truly enjoys her job and feels blessed to have the opportunity to serve patients in the community in which she was raised and loves.'
             />
+            <Footer />
         </div>
     )
 }

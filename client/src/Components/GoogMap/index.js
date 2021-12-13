@@ -6,7 +6,6 @@ import './style.css';
 
 function GoogMap (props) {
 
-
     const mapStyles = {
         height: '25vh',
         width: '25vh'
@@ -53,7 +52,9 @@ function GoogMap (props) {
                     </LoadScript>
                 </div>
             </div>
-            <input type='button' onclick="location.href='https://google.com" className='FbText'/>
+            <a target='_blank' href='https://www.facebook.com/search/top?q=pineywoods%20obstetrics%20and%20gynecology%2F%20dr%20cheryl%20suiter%20and...'>
+                <img src={FB} className='FbContainer' />
+            </a>
         </Card>
     )
 }

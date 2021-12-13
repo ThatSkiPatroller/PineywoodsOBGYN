@@ -20,22 +20,22 @@ function Header () {
                 <a className="nav-link active"  aria-current="page" href="/#"><b>Home</b></a>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link active" href="/#AboutUs"><b>About Us</b></a>
+                <a className="nav-link active" href="/AboutUs"><b>About Us</b></a>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link active" href="/#Gallery"><b>Gallery</b></a>
+                <a className="nav-link active" href="/Gallery"><b>Gallery</b></a>
               </li> 
               <li className="nav-item dropdown mx-auto">
                 <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>
                   Services
                 </b></a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="/#Laser"><b>Laser Treatments</b></a></li>
-                  <li><a className="dropdown-item" href="/#Ultrasound"><b>3D Ultrasounds</b></a></li>
+                  <li><a className="dropdown-item" href="/Laser"><b>Laser Treatments</b></a></li>
+                  <li><a className="dropdown-item" href="/Ultrasound"><b>3D Ultrasounds</b></a></li>
                 </ul>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link active" href="/#Updates"><b>Updates</b></a>
+                <a className="nav-link active" href="/Updates"><b>Updates</b></a>
               </li>
             </ul>
           </div>

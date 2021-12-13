@@ -4,6 +4,8 @@ import LaserBio from '../Components/LaserBio';
 import Headings from '../Components/Headings'
 import UltraAndLaserBio from '../Components/UltraAndLaserBio';
 import ProfilePics from '../ProfilePics';
+import Footer from '../Components/Footer';
+import YoutubeVid from '../Components/YoutubeVid';
 
 function Laser () {
     return(
@@ -22,6 +24,9 @@ function Laser () {
             formation of collagen thus remodeling the tissue. Patient will recieve a treatment every 3 - 4 weeks for 3 
             treatments and then a single treatment a year after. "
         />
+        <YoutubeVid embedId="_pC3E7W7ucM" />
+        <Footer />
+        
     </div>
     )
 }
