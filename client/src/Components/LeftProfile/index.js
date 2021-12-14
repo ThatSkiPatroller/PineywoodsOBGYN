@@ -19,7 +19,13 @@ function LeftProfile (props) {
                     <Card className='bioCard'>
                         <h1 className='bioName'><b>{props.name}</b></h1>
                         <h1 className='bioBio'>
-                            {props.bio}
+                            {props.bio1}
+                        </h1>
+                        <h1 className='bioBio'>
+                            {props.bio2}
+                        </h1>
+                        <h1 className='bioBio'>
+                            {props.bio3}
                         </h1>
                     </Card>
                 </div>

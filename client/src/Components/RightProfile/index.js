@@ -9,10 +9,17 @@ function RightProfile (props) {
                 <div className='col-sm-8 bio2Collumn'>
                     <Card className='bioCard2'>
                         <h1 className='bioName2'><b>{props.name}</b></h1>
-                       
+                        
                         <h1 className='bioBio2'>
-                            {props.bio}
+                            {props.bio1}
                         </h1>
+                        <h1 className='bioBio2'>
+                            {props.bio2}
+                        </h1>
+                        <h1 className='bioBio2'>
+                            {props.bio3}
+                        </h1>
+                        
                     </Card>
                 </div>
                 <div className='col-sm-4 pic2Collumn'>
