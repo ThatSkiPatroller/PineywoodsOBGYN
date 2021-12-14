@@ -101,6 +101,10 @@
     padding: 10px;
   }
 
+  .suiterultrasoundpic {
+    max-width: 350px;
+  }
+
   .ultraBtn {
     width: 400px;
   }
@@ -118,6 +122,10 @@
 
   .ultraBtn {
     width: 300px;
+  }
+
+  .suiterultrasoundpic {
+    max-width: 275px;
   }
 }
 
