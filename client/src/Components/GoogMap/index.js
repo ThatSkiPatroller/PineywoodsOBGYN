@@ -2,7 +2,9 @@ import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { Card } from '@material-ui/core';
 import FB from '../../Images/facebookThumbLike.png'
+import Config from '../../config';
 import './style.css';
+
 
 function GoogMap (props) {
 
@@ -27,6 +29,8 @@ function GoogMap (props) {
         mapId: "33ad748ad4509de4"
     }
 
+    const myKey=Config.MY_KEY;
+
     return (
         <Card className='mike mx-auto'>
             <div className='row'>
@@ -40,7 +44,7 @@ function GoogMap (props) {
                 </div>
                 <div className='col-md-6 steve'>
                     <LoadScript
-                    googleMapsApiKey='AIzaSyC9r_0ONzMoOyUYewrxMScWrz2xOgP1ZJ0'>
+                    googleMapsApiKey={myKey}>
                         <GoogleMap  
                             mapContainerStyle={mapStyles}
                             zoom={14}
