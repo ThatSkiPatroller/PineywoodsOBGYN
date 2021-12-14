@@ -7,7 +7,7 @@ function AllStaff () {
         <div>
             <img src={ProfilePics.OfficeStaff} className='staffPic'/>
             <div className='staffTextDiv'>
-                <h1 className='staffText'>Crystal, Sandra, Jana, Paula, Kelli, Dr. Suiter, Cynthia, </h1>
+                <h1 className='staffText'>Crystal, Sandra, Jana, Paula, Kelli, Dr. Suiter, Cynthia, Jessica and Vicki</h1>
             </div>
         </div>
     )
