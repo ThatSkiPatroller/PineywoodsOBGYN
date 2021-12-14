@@ -29,7 +29,7 @@
   text-shadow: 1px 1px 1px black;
 }
 
-.robot2 {
+.profDiv {
   display: flex;
   justify-content: center;
 }
@@ -55,7 +55,7 @@
   }
 
   .bioBio2 {
-    font-size: 30px;
+    font-size: 27px;
   }
 
 }
@@ -78,6 +78,10 @@
 
   .bioName2 {
     margin-top: 20px;
+  }
+
+  .bioBio2 {
+      font-size: 24px;
   }
 
 

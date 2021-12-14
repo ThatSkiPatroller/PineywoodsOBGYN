@@ -4,7 +4,7 @@ import './style.css';
 
 function RightProfile (props) {
     return(
-        <div className='roomba'>
+        <div className='profDiv'>
             <div className='row'>
                 <div className='col-sm-8 bio2Collumn'>
                     <Card className='bioCard2'>
