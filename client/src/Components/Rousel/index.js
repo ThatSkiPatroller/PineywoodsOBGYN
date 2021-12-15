@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import FadeInLogo from "../FadeInLogo";
 import './style.css'
-
+ 
 function Rousel () {
 
   return (
@@ -30,13 +30,22 @@ function Rousel () {
             <img src={ProfilePics.SuiterProfile2} className='newYork' />
           </div> */}
           <div>
-            <img src={ProfilePics.Crystal} className='carou'/>
+            <img src={ProfilePics.SuiterSign} className='carou' />
+          </div>
+          <div>
+            <img src={ProfilePics.Vicki} className='carou'/>
+          </div>
+          <div>
+            <img src={ProfilePics.JanaSign} className='carou' />
           </div>
           <div>
             <img src={ProfilePics.JanaBrendaKelli} className='carou'/>
           </div>
           <div>
-            <img src={ProfilePics.Vicki} className='carou'/>
+            <img src={ProfilePics.SandraSign} className='carou' />
+          </div>
+          <div>
+            <img src={ProfilePics.Crystal} className='carou' />
           </div>
         </Carousel>
         </div>

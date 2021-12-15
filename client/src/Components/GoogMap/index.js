@@ -44,7 +44,7 @@ function GoogMap (props) {
                 </div>
                 <div className='col-md-6 steve'>
                     <LoadScript
-                    googleMapsApiKey={myKey}>
+                    googleMapsApiKey='AIzaSyC9r_0ONzMoOyUYewrxMScWrz2xOgP1ZJ0'>
                         <GoogleMap  
                             mapContainerStyle={mapStyles}
                             zoom={14}

@@ -13,7 +13,9 @@ const ProfilePics = {
     SuiterProfile2: require('./SuiterProfile2.webp').default,
     SuiterSign: require('./SuiterSign.webp').default,
     SuiterUltrasound: require('./SuiterUltrasound.webp').default,
-    Vicki: require('./Vicki5.webp').default
+    Vicki: require('./Vicki5.webp').default,
+    SandraSign: require('./SandraSign.webp').default,
+    JanaSign: require('./JanaSign.webp').default
 }
 
 export default ProfilePics;
