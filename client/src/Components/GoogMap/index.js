@@ -2,7 +2,6 @@ import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { Card } from '@material-ui/core';
 import FB from '../../Images/facebookThumbLike.png'
-import Config from '../../config';
 import './style.css';
 
 
@@ -28,8 +27,6 @@ function GoogMap (props) {
         fullscreenControl: true,
         mapId: "33ad748ad4509de4"
     }
-
-    const myKey=Config.MY_KEY;
 
     return (
         <Card className='mike mx-auto'>
