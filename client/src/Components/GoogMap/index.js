@@ -8,8 +8,8 @@ import './style.css';
 function GoogMap (props) {
 
     const mapStyles = {
-        height: '25vh',
-        width: '25vh'
+        height: '300px',
+        width: '300px'
     }
 
     const defaultCenter = {
