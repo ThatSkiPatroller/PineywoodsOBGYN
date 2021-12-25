@@ -22,7 +22,7 @@ function AboutUs () {
                 She received an award for research and has been published several times. 
                 She left fellowship/Assistant Clinical Professor to come back to East Texas and has been in practice since 1998 in Lufkin, Texas."
                 bio3="She loves to teach and loves ultrasound. She has authored an article 'Be a Warrior, Not Just a Survivor' after a journey with breast cancer.
-                Dr. Suiter loves both obstetrics and gynecology. She provides axcellent continuity of care and does her own ultrasounds."
+                Dr. Suiter loves both obstetrics and gynecology. She provides excellent continuity of care and does her own ultrasounds."
             />
             <br />
             <RightProfile 
