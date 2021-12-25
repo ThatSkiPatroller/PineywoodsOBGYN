@@ -9,19 +9,19 @@ const images = [
         original: BabyPics.a,
         originalHeight: '600px',
         thumbnail: BabyPics.a,
-        description: 'Levi Caycoya DOB: 8/3/21'
+        description: 'Levi'
     },
     {
         original: BabyPics.b,
         originalHeight: '600px',
         thumbnail: BabyPics.b,
-        description: 'Levi Caycoya DOB: 8/3/21'
+        description: 'Levi'
     },
     {
         original: BabyPics.c,
         originalHeight: '600px',
         thumbnail: BabyPics.c,
-        description: 'Levi Caycoya DOB: 8/3/21'
+        description: 'Levi'
     },
     {
         original: BabyPics.d,
@@ -39,67 +39,67 @@ const images = [
         original: BabyPics.f,
         originalHeight: '600px',
         thumbnail: BabyPics.f,
-        description: 'Lucy Kate'
+        description: 'Lucy'
     },
     {
         original: BabyPics.g,
         originalHeight: '600px',
         thumbnail: BabyPics.g,
-        description: 'Lucy Kate'
+        description: 'Lucy'
     },
     {
         original: BabyPics.h,
         originalHeight: '600px',
         thumbnail: BabyPics.h,
-        description: 'Lucy Kate'
+        description: 'Lucy'
     },
     {
         original: BabyPics.i,
         originalHeight: '600px',
         thumbnail: BabyPics.i,
-        description: 'Emma Kate Barnett'
+        description: 'Emma'
     },
     {
         original: BabyPics.j,
         originalHeight: '600px',
         thumbnail: BabyPics.j,
-        description: 'Holden Asher Rosencranz, DOB 8/17/2021'
+        description: 'Holden'
     },
     {
         original: BabyPics.k,
         originalHeight: '600px',
         thumbnail: BabyPics.k,
-        description: 'Holden Asher Rosencranz, DOB 8/17/2021'
+        description: 'Holden'
     },
     {
         original: BabyPics.l,
         originalHeight: '600px',
         thumbnail: BabyPics.l,
-        description: 'Holden Asher Rosencranz, DOB 8/17/2021'
+        description: 'Holden'
     },
     {
         original: BabyPics.m,
         originalHeight: '600px',
         thumbnail: BabyPics.m,
-        description: 'Emory Rena Murphy'
+        description: 'Emory'
     },
     {
         original: BabyPics.n,
         originalHeight: '600px',
         thumbnail: BabyPics.n,
-        description: 'Emory Rena Murphy'
+        description: 'Emory'
     },
     {
         original: BabyPics.o,
         originalHeight: '600px',
         thumbnail: BabyPics.o,
-        description: 'Avryn Edwards'
+        description: 'Avryn'
     },
     {
         original: BabyPics.p,
         originalHeight: '600px',
         thumbnail: BabyPics.p,
-        description: 'Avryn Edwards'
+        description: 'Avryn'
     },
     {
         original: BabyPics.q,
@@ -111,25 +111,74 @@ const images = [
         original: BabyPics.r,
         originalHeight: '600px',
         thumbnail: BabyPics.r,
-        description: 'Samuel Juan'
+        description: 'Samuel'
     },
     {
         original: BabyPics.s,
         originalHeight: '600px',
         thumbnail: BabyPics.s,
-        description: 'Samuel Juan'
+        description: 'Samuel'
     },
     {
         original: BabyPics.t,
         originalHeight: '600px',
         thumbnail: BabyPics.t,
-        description: 'Samuel Juan'
+        description: 'Samuel'
     },
     {
         original: BabyPics.u,
         originalHeight: '600px',
         thumbnail: BabyPics.u,
-        description: 'Anthony Erath'
+        description: 'Anthony'
+    },
+    {
+        original: BabyPics.v,
+        originalHeight: '600px',
+        thumbnail: BabyPics.v,
+        description: ''
+    },
+    {
+        original: BabyPics.w,
+        originalHeight: '600px',
+        thumbnail: BabyPics.w,
+        description: ''
+    },
+    {
+        original: BabyPics.x,
+        originalHeight: '600px',
+        thumbnail: BabyPics.x,
+        description: ''
+    },
+    {
+        original: BabyPics.y,
+        originalHeight: '600px',
+        thumbnail: BabyPics.y,
+        description: ''
+    },
+    {
+        original: BabyPics.z,
+        originalHeight: '600px',
+        thumbnail: BabyPics.z,
+        description: ''
+    },
+    {
+        original: BabyPics.z3,
+        originalHeight: '600px',
+        thumbnail: BabyPics.z3,
+        description: ''
+    },
+    
+    {
+        original: BabyPics.z5,
+        originalHeight: '600px',
+        thumbnail: BabyPics.z5,
+        description: ''
+    },
+    {
+        original: BabyPics.z4,
+        originalHeight: '600px',
+        thumbnail: BabyPics.z4,
+        description: 'Office Christmas Party'
     }
 ]
 
