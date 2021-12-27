@@ -18,7 +18,8 @@
 }
 
 .updateText {
-  color: white;
+  color: bisque;
+  text-shadow: 2px 2px 2px black;
   text-align: center;
   margin-top: 7px;
 }

@@ -17,7 +17,7 @@ function UpdatesDiv () {
                 <img src={UpdateDivPic} className='updateContainer' />
             </a>
             <div className='updateText'>
-                <h1>Click the image to view the full article</h1>
+                <h1>Click on image to view full article</h1>
             </div>
         </div>
     )
