@@ -34,8 +34,8 @@ function GoogMap (props) {
                 <div className='col-md-6 fred'>
                     <br></br>
                     <h1>Hours:</h1>
-                    <p>Monday - Thusday: 8 AM - 5 PM </p>
-                    <p>Friday: 8 AM - 12 PM </p>
+                    <p>Monday - Thusday: 8:30 AM - 5 PM </p>
+                    <p>Friday: 8:30 AM - 12 PM </p>
                     <h1>Phone Number: </h1> <p>936-699-7575</p>
                     <h1>Address:</h1> <p>402 Gaslight Blvd, Lufkin, Tx</p>
                 </div>
@@ -53,7 +53,7 @@ function GoogMap (props) {
                     </LoadScript>
                 </div>
             </div>
-            <a target='_blank' href='https://www.facebook.com/search/top?q=pineywoods%20obstetrics%20and%20gynecology%2F%20dr%20cheryl%20suiter%20and...'>
+            <a target='_blank' href='https://www.facebook.com/Pineywoods-Obstetrics-And-Gynecology-Dr-Cheryl-Suiter-and-Jana-Brazil-WHNP-197455900300411'>
                 <img src={FB} className='FbContainer' />
             </a>
         </Card>
