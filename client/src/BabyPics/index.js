@@ -28,7 +28,10 @@ const BabyPics = {
     z: require('./z.webp').default,
     z3: require('./z3.webp').default,
     z4: require('./z4.webp').default,
-    z5: require('./z5.webp').default
+    z5: require('./z5.webp').default,
+    z6: require('./z6.webp').default,
+    z7: require('./z7.webp').default,
+    z8: require('./z8.webp').default
 }
 
 export default BabyPics;

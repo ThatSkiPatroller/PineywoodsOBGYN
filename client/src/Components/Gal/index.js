@@ -12,6 +12,24 @@ const images = [
         description: 'Levi'
     },
     {
+        original: BabyPics.z6,
+        originalHeight: '600px',
+        thumbnail: BabyPics.z6,
+        description: 'Delivered October 11, 2021'
+    },
+    {
+        original: BabyPics.z7,
+        originalHeight: '600px',
+        thumbnail: BabyPics.z7,
+        description: 'Delivered October 11, 2021'
+    },
+    {
+        original: BabyPics.z8,
+        originalHeight: '600px',
+        thumbnail: BabyPics.z8,
+        description: 'Delivered October 11, 2021'
+    },
+    {
         original: BabyPics.b,
         originalHeight: '600px',
         thumbnail: BabyPics.b,
