@@ -1,4 +1,4 @@
-.mike {
+.infoCard {
   padding: 20px;
   background-color: bisque !important;
   font-family: "Old Standard TT", serif;
@@ -10,11 +10,11 @@
   margin-top: 35px;
 }
 
-.fred {
+.hours {
   text-align: center;
 }
 
-.steve {
+.mapsFb {
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -29,23 +29,8 @@
   margin-top: 20px;
 }
 
-
-/* .FbThumb {
-   width: 150px;
-   height: 150px;
-}
-
-.FbText {
-  background-image: url(../../Images/facebookThumbLike.png);
-  background-repeat: no-repeat;
-  background-size: 150px 150px;
-  width: 150px;
-  height: 150px;
-} */
-
 @media screen and (max-width: 767px) {
-  .mike {
+  .infoCard {
     width: 400px;
   }
-  
 }

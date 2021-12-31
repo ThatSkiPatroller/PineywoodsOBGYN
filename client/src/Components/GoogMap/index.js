@@ -29,9 +29,9 @@ function GoogMap (props) {
     }
 
     return (
-        <Card className='mike mx-auto'>
+        <Card className='infoCard mx-auto'>
             <div className='row'>
-                <div className='col-md-6 fred'>
+                <div className='col-md-6 hours'>
                     <br></br>
                     <h1>Hours:</h1>
                     <p>Monday - Thusday: 8:30 AM - 5 PM </p>
@@ -39,7 +39,7 @@ function GoogMap (props) {
                     <h1>Phone Number: </h1> <p>936-699-7575</p>
                     <h1>Address:</h1> <p>402 Gaslight Blvd, Lufkin, Tx</p>
                 </div>
-                <div className='col-md-6 steve'>
+                <div className='col-md-6 mapsFb'>
                     <LoadScript
                     googleMapsApiKey='AIzaSyC9r_0ONzMoOyUYewrxMScWrz2xOgP1ZJ0'>
                         <GoogleMap  
