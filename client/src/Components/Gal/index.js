@@ -1,201 +1,200 @@
-import { keys } from '@material-ui/core/styles/createBreakpoints';
+
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
-import BabyPics from '../../BabyPics';
 import './style.css';
 
 const images = [
     {
-        original: BabyPics.a,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/a.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.a,
-        description: 'Levi'
-    },
-    // {
-    //     original: BabyPics.z6,
-    //     originalHeight: '600px',
-    //     thumbnail: BabyPics.z6,
-    //     description: 'Delivered October 11, 2021'
-    // },
-    // {
-    //     original: BabyPics.z7,
-    //     originalHeight: '600px',
-    //     thumbnail: BabyPics.z7,
-    //     description: 'Delivered October 11, 2021'
-    // },
-    // {
-    //     original: BabyPics.z8,
-    //     originalHeight: '600px',
-    //     thumbnail: BabyPics.z8,
-    //     description: 'Delivered October 11, 2021'
-    // },
-    {
-        original: BabyPics.b,
-        originalHeight: '600px',
-        thumbnail: BabyPics.b,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/a.webp',
         description: 'Levi'
     },
     {
-        original: BabyPics.c,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/b.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.c,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/b.webp',
         description: 'Levi'
     },
     {
-        original: BabyPics.d,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/c.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.d,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/c.webp',
+        description: 'Levi'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/d.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/d.webp',
         description: ''
     },
     {
-        original: BabyPics.e,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/e.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.e,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/e.webp',
         description: 'Bryson'
     },
     {
-        original: BabyPics.f,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/f.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.f,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/f.webp',
         description: 'Lucy'
     },
     {
-        original: BabyPics.g,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/g.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.g,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/g.webp',
         description: 'Lucy'
     },
     {
-        original: BabyPics.h,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/h.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.h,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/h.webp',
         description: 'Lucy'
     },
     {
-        original: BabyPics.i,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/i.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.i,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/i.webp',
         description: 'Emma'
     },
     {
-        original: BabyPics.j,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/z6.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.j,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/z6.webp',
+        description: 'Delivered October 11, 2021'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/z7.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/z7.webp',
+        description: 'Delivered October 11, 2021'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/z8.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/z8.webp',
+        description: 'Delivered October 11, 2021'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/j.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/j.webp',
         description: 'Holden'
     },
     {
-        original: BabyPics.k,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/k.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.k,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/k.webp',
         description: 'Holden'
     },
     {
-        original: BabyPics.l,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/l.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.l,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/l.webp',
         description: 'Holden'
     },
     {
-        original: BabyPics.m,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/m.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.m,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/m.webp',
         description: 'Emory'
     },
     {
-        original: BabyPics.n,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/n.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.n,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/n.webp',
         description: 'Emory'
     },
     {
-        original: BabyPics.o,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/o.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.o,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/o.webp',
         description: 'Avryn'
     },
     {
-        original: BabyPics.p,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/p.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.p,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/p.webp',
         description: 'Avryn'
     },
     {
-        original: BabyPics.q,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/q.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.q,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/q.webp',
         description: ''
     },
     {
-        original: BabyPics.r,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/r.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.r,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/r.webp',
         description: 'Samuel'
     },
     {
-        original: BabyPics.s,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/s.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.s,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/s.webp',
         description: 'Samuel'
     },
     {
-        original: BabyPics.t,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/t.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.t,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/t.webp',
         description: 'Samuel'
     },
     {
-        original: BabyPics.u,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/u.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.u,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/u.webp',
         description: 'Anthony'
     },
     {
-        original: BabyPics.v,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/v.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.v,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/v.webp',
         description: ''
     },
     {
-        original: BabyPics.w,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/w.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.w,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/w.webp',
         description: ''
     },
     {
-        original: BabyPics.x,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/x.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.x,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/x.webp',
         description: ''
     },
     {
-        original: BabyPics.y,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/y.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.y,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/y.webp',
         description: ''
     },
     {
-        original: BabyPics.z,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/z.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.z,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/z.webp',
         description: ''
     },
     {
-        original: BabyPics.z3,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/z3.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.z3,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/z3.webp',
         description: ''
     },
     
     {
-        original: BabyPics.z5,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/z5.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.z5,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/z5.webp',
         description: ''
     },
     {
-        original: BabyPics.z4,
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/z4.webp',
         originalHeight: '600px',
-        thumbnail: BabyPics.z4,
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/z4.webp',
         description: 'Office Christmas Party'
     }
 ]
