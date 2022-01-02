@@ -3,7 +3,6 @@ import Header from '../Components/Header';
 import Headings from '../Components/Headings';
 import LeftProfile from '../Components/LeftProfile';
 import RightProfile from '../Components/RightProfile';
-import ProfilePics from '../ProfilePics';
 import AllStaff from '../Components/AllStaff';
 import Footer from '../Components/Footer';
 
@@ -15,7 +14,7 @@ function AboutUs () {
             <AllStaff />
             <Headings header='Providers' />
             <LeftProfile 
-                picture={ProfilePics.SuiterProfile} 
+                picture='https://d1wedsacc4lfnu.cloudfront.net/SuiterProfile.webp' 
                 name='Dr. Cheryl Suiter, OBGYN' 
                 bio1="Dr. Suiter grew up in Diboll, Texas and married Wes Suiter in 1982. During her undergraduate years she worked as a nurse's aide and ward clerk. She went on to work her way through medical school in labor and delivery as a nurse."
                 bio2="She graduated with honors from University of Texas Health Science Center in San Antonio and was accepted to residency and fellowship. 
@@ -26,7 +25,7 @@ function AboutUs () {
             />
             <br />
             <RightProfile 
-                picture={ProfilePics.Jana} 
+                picture='https://d1wedsacc4lfnu.cloudfront.net/Jana.webp'
                 name='Jana Brazil, R.N.'
                 bio1="Jana grew up in Lufkin and is a 1993 graduate of Lufkin High School. 
                 She attended Stephen F. Austin State University, where she graduated with a Bachelor of Science in Nursing degree. 

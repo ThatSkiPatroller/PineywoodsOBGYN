@@ -1,17 +1,12 @@
 import React from "react";
-import ProfilePics from "../../ProfilePics";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import FadeInLogo from "../FadeInLogo";
 import './style.css'
  
 function Rousel () {
 
   return (
       <div>
-        {/* <div className='laviathan'>
-        <FadeInLogo />
-        </div> */}
         <div className='hercules'>
         <Carousel 
           showArrows={false}
@@ -26,26 +21,23 @@ function Rousel () {
           animationHandler={'fade'}
           swipeable={false}
         >
-          {/* <div>
-            <img src={ProfilePics.SuiterProfile2} className='newYork' />
-          </div> */}
           <div>
-            <img src={ProfilePics.SuiterSign} className='carou' />
+            <img src='https://d1wedsacc4lfnu.cloudfront.net/SuiterSign.webp' className='carou' />
           </div>
           <div>
-            <img src={ProfilePics.Vicki} className='carou'/>
+            <img src='https://d1wedsacc4lfnu.cloudfront.net/Vicki.webp' className='carou'/>
           </div>
           <div>
-            <img src={ProfilePics.JanaSign} className='carou' />
+            <img src='https://d1wedsacc4lfnu.cloudfront.net/JanaSign.webp' className='carou' />
           </div>
           <div>
-            <img src={ProfilePics.JanaBrendaKelli} className='carou'/>
+            <img src='https://d1wedsacc4lfnu.cloudfront.net/JanaBrendaKelli.webp' className='carou'/>
           </div>
           <div>
-            <img src={ProfilePics.SandraSign} className='carou' />
+            <img src='https://d1wedsacc4lfnu.cloudfront.net/SandraSign.webp' className='carou' />
           </div>
           <div>
-            <img src={ProfilePics.Crystal} className='carou' />
+            <img src='https://d1wedsacc4lfnu.cloudfront.net/Crystal.webp' className='carou' />
           </div>
         </Carousel>
         </div>
