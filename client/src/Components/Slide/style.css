@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
 
-#trace {
-    font-family: 'Corben', cursive;
-    color: bisque;
+.slideText {
+  font-family: "Corben", cursive;
+  color: bisque;
 }
