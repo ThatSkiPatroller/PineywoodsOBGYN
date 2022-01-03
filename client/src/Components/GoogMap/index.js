@@ -5,7 +5,7 @@ import FB from '../../Images/facebookThumbLike.png'
 import './style.css';
 
 
-function GoogMap (props) {
+function GoogMap () {
 
     const mapStyles = {
         height: '300px',
