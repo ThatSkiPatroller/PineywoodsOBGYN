@@ -1,0 +1,17 @@
+.circleOne {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circleTwo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(0px, 20px)
+}
+

@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfilePics from '../../ProfilePics';
 import manyLasers from '../../Images/manyLasers.png';
-import { Button } from '@material-ui/core';
+import { Card, Button } from '@material-ui/core';
 import './style.css';
 
 function LaserBio () {

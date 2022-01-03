@@ -19,6 +19,7 @@ function RightProfile (props) {
                         <h1 className='bioBio2'>
                             {props.bio3}
                         </h1>
+                        
                     </Card>
                 </div>
                 <div className='col-sm-4 pic2Collumn'>
@@ -29,4 +30,4 @@ function RightProfile (props) {
     )
 }
 
-export default RightProfile;
+export default RightProfile

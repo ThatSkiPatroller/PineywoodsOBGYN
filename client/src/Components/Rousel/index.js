@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import './style.css'
  
 function Rousel () {
+
   return (
       <div>
         <div className='hercules'>

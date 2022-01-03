@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Components/Header';
+import LaserBio from '../Components/LaserBio';
 import Headings from '../Components/Headings'
 import UltraAndLaserBio from '../Components/UltraAndLaserBio';
 import ProfilePics from '../ProfilePics';

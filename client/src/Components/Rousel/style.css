@@ -1,5 +1,6 @@
+
 .laviathan {
-  position: absolute;
+  position:absolute;
   z-index: 1;
   margin-left: -135px;
   left: 50%;
@@ -7,9 +8,16 @@
 }
 
 .hercules {
-  display: flex;
+  display:flex;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 15px;
-  max-width: 800px;
+  max-width: 1100px;
 }
+
+/* @media only screen and (max-width: 767px) {
+    
+  .laviathan {
+      margin-top: 200px;
+  }
+} */

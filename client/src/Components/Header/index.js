@@ -2,6 +2,7 @@ import React from 'react';
 import Logo1 from '../../Images/transparent-logo.webp';
 import './style.css';
 
+// ms-auto = right align, mx-auto = center, ml = left align
 function Header () {
   return(
     <div>

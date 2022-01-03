@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import Ultrasound from '../../Images/ultrasound-scan.jpg';
+import ObstetricalCare from '../../Images/ObstetricalCare.jpg';
 
 function Services () {
     return(
