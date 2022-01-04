@@ -22,7 +22,7 @@ function UltraBio (props) {
                 
                 </div>   </div>
                 <Button href='tel:+19366997575' variant='contained' className='ultraBtn' color='success' size='large'>
-                    Please call us at 936-699-7575 for a consultation appointment.
+                    Please call us at 936-699-7575 for a consultation appointment!
                 </Button>
             </div>
         </div>

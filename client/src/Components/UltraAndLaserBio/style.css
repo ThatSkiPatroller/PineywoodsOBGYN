@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap');
-
 .suiterultrasoundpic {
   width: 100%;
   max-width: 700px;
@@ -13,14 +11,16 @@
   border-radius: 5%;
   background-color: rgb(255, 228, 196, 0.5);
   z-index: 2;
-  font-family: 'BioRhyme', serif;
+  font-family: "BioRhyme", serif;
   height: auto;
 }
 
 .ultraBtn {
   width: 400px;
   background-color: rgb(73, 100, 73) !important;
-  color: white !important;
+  color: bisque !important;
+  font-family: !important;
+  text-shadow: 1px 1px 2px black;
 }
 
 .ultraParentDiv {
@@ -43,7 +43,6 @@
   }
 }
 @media screen and (min-width: 1050px) and (max-width: 1500px) {
-
   .suiterultrasoundpic {
     margin-left: 15px;
   }
@@ -58,7 +57,6 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1050px) {
-
   .suiterultrasoundpic {
     margin-left: 15px;
   }
@@ -72,7 +70,6 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
-
   .ultraDiv {
     max-width: 450px;
     padding: 10px;
@@ -92,7 +89,6 @@
 }
 
 @media screen and (min-width: 430px) and (max-width: 500px) {
-
   .ultraDiv {
     font-size: 15px;
     max-width: 400px;
@@ -111,7 +107,6 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 430px) {
-
   .ultraDiv {
     font-size: 13px;
     max-width: 300px;
@@ -128,6 +123,3 @@
     max-width: 300px;
   }
 }
-
-
-

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
-
 .profPic2 {
   display: flex;
   justify-content: center;
@@ -57,10 +55,8 @@
   .bioBio2 {
     font-size: 27px;
   }
-
 }
 @media screen and (min-width: 1179px) and (max-width: 1500px) {
-
   .profPic2 {
     width: 100%;
     max-width: 400px;
@@ -81,21 +77,17 @@
   }
 
   .bioBio2 {
-      font-size: 24px;
+    font-size: 24px;
   }
-
-
 }
 
 @media screen and (min-width: 767px) and (max-width: 1179px) {
-
   .profPic2 {
     width: 100%;
     max-width: 400px;
     height: auto;
     margin-left: -11px;
   }
-
 
   .bioCard2 {
     padding: 10px;
@@ -105,7 +97,6 @@
   .bioName2 {
     margin-top: 20px;
   }
-
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -116,7 +107,6 @@
     margin-left: -11px;
   }
 
-
   .bioCard2 {
     padding: 5px;
     margin-left: 11px;
@@ -125,11 +115,9 @@
   .bioName2 {
     margin-top: 15px;
   }
-
 }
 
 @media screen and (max-width: 575px) {
-
   .profPic2 {
     width: 100%;
     max-width: 200px;
@@ -138,7 +126,6 @@
     margin-right: auto;
     margin-top: 20px;
   }
-
 
   .bioCard2 {
     padding: 10px;
@@ -157,11 +144,10 @@
   }
 
   .pic2Collumn {
-    order: 1
+    order: 1;
   }
 
   .bio2Collumn {
-    order: 2
+    order: 2;
   }
-
 }

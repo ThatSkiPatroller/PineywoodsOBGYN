@@ -1,37 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 .navbar {
-    background-color: bisque !important;
+  background-color: bisque !important;
 }
 
 li a {
-    color: rgb(3, 109, 8) !important;
-    font-family: 'Gilda Display', serif;
-    font-weight: 1000;
-    font-size: 20px;
+  color: rgb(3, 109, 8) !important;
+  font-family: "Gilda Display", serif;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 .transpLogo {
-    width: 100%;
-    height: auto;
-    max-width: 450px;
+  width: 100%;
+  height: auto;
+  max-width: 450px;
 }
 
 .dropdown-menu {
-    background-color: rgb(73, 100, 73);
+  background-color: rgb(73, 100, 73);
 }
 
 .dropdown-item {
-    color: bisque !important;
-    text-shadow: 2px 2px 2px black;
+  color: bisque !important;
+  text-shadow: 2px 2px 2px black;
 }
 
 .dropdown-item:hover {
-    background-color: rgb(133, 141, 110);
+  background-color: rgb(133, 141, 110);
 }
 
 @media screen and (max-width: 575px) {
-    .navbar-brand {
-        max-width: 300px;
-    }
+  .navbar-brand {
+    max-width: 300px;
+  }
 }
-

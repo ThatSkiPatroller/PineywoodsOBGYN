@@ -14,7 +14,6 @@ const settings = {
         arrows: false
 }
 
-
 function Slide () {
      return(
         <div>
