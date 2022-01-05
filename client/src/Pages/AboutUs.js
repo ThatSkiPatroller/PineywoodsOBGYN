@@ -26,7 +26,7 @@ function AboutUs () {
             <br />
             <RightProfile 
                 picture='https://d1wedsacc4lfnu.cloudfront.net/Jana.webp'
-                name='Jana Brazil, R.N.'
+                name='Jana Brazil, WHNP'
                 bio1="Jana grew up in Lufkin and is a 1993 graduate of Lufkin High School. 
                 She attended Stephen F. Austin State University, where she graduated with a Bachelor of Science in Nursing degree. 
                 As a registered nurse, Jana spent a year working in ICU then went on to work 12 years in Labor & Delivery."

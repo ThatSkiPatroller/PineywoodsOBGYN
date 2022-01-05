@@ -1,9 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header';
-import LaserBio from '../Components/LaserBio';
 import Headings from '../Components/Headings'
 import UltraAndLaserBio from '../Components/UltraAndLaserBio';
-import ProfilePics from '../ProfilePics';
 import Footer from '../Components/Footer';
 import YoutubeVid from '../Components/YoutubeVid';
 
@@ -13,7 +11,7 @@ function Laser () {
         <Header />
         <Headings header='Laser Treatments' />
         <UltraAndLaserBio 
-            mainPic={ProfilePics.Laser}
+            mainPic='https://d1wedsacc4lfnu.cloudfront.net/Laser.webp'
             laserAndUltraTextP1="Over the course of a lifetime, every woman feels the effects of childbirth and aging. 
             With the loss of vaginal tone, lubrication, and elasticity, women can often benefit from CO2RE
             Intima laser treatments. With the loss of elasticity and tone, women often suffer from stress urinary 

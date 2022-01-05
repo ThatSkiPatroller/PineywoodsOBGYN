@@ -29,6 +29,10 @@
   letter-spacing: 1.4px !important;
 }
 
+.bioWithButton {
+  text-align: center;
+}
+
 .ultraParentDiv {
   display: inline-block;
   margin-left: auto;

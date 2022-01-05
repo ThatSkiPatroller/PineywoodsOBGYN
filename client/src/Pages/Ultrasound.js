@@ -3,7 +3,6 @@ import Header from '../Components/Header';
 import Headings from '../Components/Headings';
 import GridGallery from '../Components/GridGallery';
 import UltraAndLaserBio from '../Components/UltraAndLaserBio';
-import ProfilePics from '../ProfilePics';
 
 function Ultrasound () {
     return(
@@ -11,7 +10,7 @@ function Ultrasound () {
             <Header />
             <Headings header='3D & 4D Ultrasounds' />
             <UltraAndLaserBio 
-                mainPic={ProfilePics.SuiterUltrasound} 
+                mainPic='https://d1wedsacc4lfnu.cloudfront.net/SuiterUltrasound.webp'
                 laserAndUltraTextP1="Dr. Suiter is accredited by the American Institute of Ultrasound
                 Medicine and Nuchal Translucency and Quality Review Program. She
                 performs her own ultrasound, as this is a part of her job she 

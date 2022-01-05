@@ -5,7 +5,7 @@ import './style.css';
 function UltraBio (props) {
     return(
     <div>
-        <div className='row'>
+        <div className='row bioWithButton'>
             <div className='col-md-6'>
                 <img src={props.mainPic} className='suiterultrasoundpic'/>
             </div>
