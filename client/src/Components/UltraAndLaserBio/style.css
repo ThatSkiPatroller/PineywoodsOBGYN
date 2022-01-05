@@ -1,7 +1,7 @@
 .suiterultrasoundpic {
   width: 100%;
-  max-width: 700px;
   height: auto;
+  max-width: 700px;
   margin-top: 20px;
   border-style: solid;
   border-color: bisque;
@@ -13,6 +13,7 @@
   z-index: 2;
   font-weight: 900;
   font-family: "BioRhyme", serif;
+  margin-top: 15px;
   height: auto;
 }
 
@@ -33,7 +34,7 @@
   margin-left: auto;
   margin-right: auto;
   color: rgb(121, 91, 41);
-  text-shadow: 1px 1px 2px white;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 @media screen and (min-width: 1500px) {
@@ -52,6 +53,7 @@
 @media screen and (min-width: 1050px) and (max-width: 1500px) {
   .suiterultrasoundpic {
     margin-left: 15px;
+    max-width: 525px;
   }
 
   .ultraDiv {
