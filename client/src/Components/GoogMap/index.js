@@ -41,7 +41,7 @@ function GoogMap (props) {
                 </div>
                 <div className='col-md-6 mapsFb'>
                     <LoadScript
-                    googleMapsApiKey='AIzaSyC9r_0ONzMoOyUYewrxMScWrz2xOgP1ZJ0'>
+                    googleMapsApiKey={process.env.REACT_APP_ENV_API_KEY}>
                         <GoogleMap  
                             mapContainerStyle={mapStyles}
                             zoom={14}
