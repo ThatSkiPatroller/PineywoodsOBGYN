@@ -10,21 +10,23 @@
 }
 
 .bioCard2 {
-  font-family: "Old Standard TT", serif;
+  font-family: 'Belgrano', serif;
   color: bisque !important;
   width: auto;
   height: 100%;
   background-color: rgb(74, 97, 78) !important;
   text-align: center;
+  max-width: 800px;
 }
 
 .bioBio2 {
+  margin-top: 15px;
   display: flex;
   line-height: 1.3;
   font-size: 2vw;
   text-align: center;
   position: relative;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 5px black;
 }
 
 .profDiv {
@@ -33,8 +35,8 @@
 }
 
 .bioName2 {
-  font-size: 3vw;
-  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  text-shadow: 1px 1px 5px black;
 }
 
 @media screen and (min-width: 1500px) {
@@ -47,13 +49,12 @@
 
   .bioCard2 {
     padding: 20px;
-    max-height: 600px;
-    max-width: 1228px;
+    max-height: 597px;
     margin-left: auto;
   }
 
   .bioBio2 {
-    font-size: 27px;
+    font-size: 21px;
   }
 }
 @media screen and (min-width: 1179px) and (max-width: 1500px) {
@@ -67,17 +68,13 @@
   }
 
   .bioCard2 {
-    padding: 10px;
+    padding: 20px;
     margin-left: 11px;
     max-height: 600px;
   }
 
-  .bioName2 {
-    margin-top: 20px;
-  }
-
   .bioBio2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
@@ -93,9 +90,9 @@
     padding: 10px;
     margin-left: 11px;
   }
-
-  .bioName2 {
-    margin-top: 20px;
+  
+  .bioBio2 {
+    font-size: 1.6vw;
   }
 }
 
@@ -114,6 +111,10 @@
 
   .bioName2 {
     margin-top: 15px;
+    font-size: 20px;
+  }
+  .bioBio2 {
+    font-size: 1.5vw;
   }
 }
 

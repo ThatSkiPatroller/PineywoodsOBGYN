@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from 'react-slick';
 import { Card } from '@material-ui/core';
 import './style.css';
 

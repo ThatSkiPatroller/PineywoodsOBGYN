@@ -1,6 +1,6 @@
 .staffPic {
   width: 100%;
-  max-width: 800px;
+  max-width: 650px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -19,6 +19,10 @@
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.staffText {
+  font-size: 25px;
 }
 
 @media screen and (max-width: 575px) {

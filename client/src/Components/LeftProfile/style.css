@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
+
 .profPic {
   display: flex;
   justify-content: center;
@@ -11,24 +13,24 @@
 }
 
 .bioCard {
-  font-family: "Old Standard TT", serif;
+  margin-right: 10px;
+  font-family: 'Belgrano', serif;
   color: bisque !important;
   width: auto;
   height: 100%;
-  /* max-width: 1500px;
-  max-height: 400px; */
+  max-width: 800px;
   background-color: rgb(74, 97, 78) !important;
   text-align: center;
 }
 
 .bioBio {
+  margin-top: 15px;
   display: flex;
   line-height: 1.3;
   font-size: 2vw;
   text-align: center;
   position: relative;
-
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 5px black;
 }
 
 .robot {
@@ -37,8 +39,8 @@
 }
 
 .bioName {
-  font-size: 3vw;
-  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  text-shadow: 1px 1px 5px black;
 }
 
 @media screen and (min-width: 1500px) {
@@ -53,13 +55,12 @@
 
   .bioCard {
     padding: 20px;
-    max-height: 600px;
-    margin-right: 60px;
-    max-width: 1285px;
+    max-height: 597px;
   }
 
   .bioBio {
-    font-size: 30px;
+    margin-top:30px;
+    font-size: 22px;
   }
 }
 
@@ -73,16 +74,20 @@
   }
 
   .bioCard {
-    padding: 10px;
-    margin-right: 11px;
+    padding: 20px;
   }
 
   .bioName {
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  .bioBio {
+    margin-top:30px;
+    font-size: 20px;
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1179px) {
+@media screen and (min-width: 767px) and (max-width: 1178px) {
   .profPic {
     width: 100%;
     max-width: 400px;
@@ -91,11 +96,15 @@
 
   .bioCard {
     padding: 10px;
-    margin-right: 11px;
   }
 
   .bioName {
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  .bioBio {
+    margin-top:20px;
+    font-size: 1.7vw;
   }
 }
 
@@ -109,11 +118,15 @@
 
   .bioCard {
     padding: 5px;
-    margin-right: 11px;
   }
 
   .bioName {
-    margin-top: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .bioBio {
+    font-size: 1.7vw;
   }
 }
 
@@ -135,7 +148,7 @@
 
   .bioName {
     font-size: 4vw;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .bioBio {
