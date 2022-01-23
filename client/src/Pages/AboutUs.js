@@ -4,12 +4,15 @@ import Headings from '../Components/Headings';
 import LeftProfile from '../Components/LeftProfile';
 import RightProfile from '../Components/RightProfile';
 import AllStaff from '../Components/AllStaff';
+import About from '../Components/About';
 import Footer from '../Components/Footer';
 
 function AboutUs () {
     return (
         <div>
             <Header />
+            <Headings header='About Us' />
+            <About />
             <Headings header='Staff Members' />
             <AllStaff />
             <Headings header='Providers' />
