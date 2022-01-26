@@ -9,24 +9,25 @@
 
 .ultraDiv {
   border-radius: 5%;
-  background-color: rgb(255, 228, 196, 0.5);
+  /* background-color: rgb(255, 228, 196, 0.5); */
+  background-color: rgb(74, 97, 78) !important;
+  word-spacing: 2px;
   z-index: 2;
   font-weight: 900;
-  font-family: "BioRhyme", serif;
+  font-family: 'Readex Pro', sans-serif;
   margin-top: 15px;
   height: auto;
+  padding: 20px;
 }
 
 .ultraBtn {
   width: 400px;
   padding: 10px !important;
-  background-color: rgb(73, 100, 73) !important;
-  color: bisque !important;
+  background-color: bisque !important;
+  color: rgb(74, 97, 78) !important;
   font-family: "Corben", cursive !important;
-  font-weight: 400 !important;
-  text-shadow: 2px 2px 2px black;
-  word-spacing: 2px;
-  letter-spacing: 1.4px !important;
+  word-spacing: 3px;
+  text-shadow:none;
 }
 
 .bioWithButton {
@@ -34,11 +35,12 @@
 }
 
 .ultraParentDiv {
+  letter-spacing: 1.4px !important;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  color: rgb(121, 91, 41);
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  color: bisque;
+  text-shadow: 3px 3px 3px black;
 }
 
 @media screen and (min-width: 1500px) {
@@ -46,7 +48,6 @@
     max-width: 700px;
     font-size: 25px;
     margin-bottom: 15px;
-    padding: 30px;
   }
 
   .ultraBtn {
@@ -65,7 +66,6 @@
     font-size: 18px !important;
     margin-bottom: 15px;
     margin-top: 10px;
-    padding: 20px;
   }
 }
 
@@ -78,14 +78,12 @@
     max-width: 370px;
     font-size: 15px !important;
     margin-bottom: 15px;
-    padding: 20px;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
   .ultraDiv {
     max-width: 450px;
-    padding: 10px;
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 17px;
@@ -108,7 +106,6 @@
     max-width: 430px;
     margin-bottom: 25px;
     margin-top: 25px;
-    padding: 10px;
   }
 
   .suiterultrasoundpic {
@@ -126,7 +123,6 @@
     max-width: 300px;
     margin-bottom: 20px;
     margin-top: 20px;
-    padding: 10px;
   }
 
   .ultraBtn {
