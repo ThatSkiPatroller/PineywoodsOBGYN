@@ -155,6 +155,12 @@ const images = [
         description: ''
     },
     {
+        original:'https://d1wedsacc4lfnu.cloudfront.net/newborn.webp',
+        originalHeight: '600px',
+        thumbnail:'https://d1wedsacc4lfnu.cloudfront.net/newborn.webp',
+        description: ''
+    },
+    {
         original: 'https://d1wedsacc4lfnu.cloudfront.net/w.webp',
         originalHeight: '600px',
         thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/w.webp',
