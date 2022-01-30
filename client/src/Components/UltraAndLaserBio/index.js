@@ -1,15 +1,16 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button, Grid } from '@material-ui/core';
 import './style.css';
 
 function UltraBio (props) {
     return(
-    <div>
-        <div className='row bioWithButton'>
-            <div className='col-md-6'>
+        
+        <div className='bioWithButton'>
+            <Grid container justifyContent='center' alignItems='center'>
+            <Grid item md={6} spacing={1}>
                 <img src={props.mainPic} className='suiterultrasoundpic'/>
-            </div>
-            <div className='col-md-6 ultraParentDiv'>
+            </Grid>
+            <Grid item md={6} spacing={1} className='ultraParentDiv'>
                 
                 <div className='ultraDiv mx-auto'>
                 <div className='ultraText'>
@@ -24,9 +25,10 @@ function UltraBio (props) {
                 <Button href='tel:+19366997575' variant='contained' className='ultraBtn' color='success' size='large'>
                     <b>Click to call us at 936-699-7575 for a consultation appointment! </b>
                 </Button>
-            </div>
+            </Grid>
+            </Grid>
         </div>
-    </div>
+        
     )
 }
 
