@@ -8,7 +8,7 @@
 }
 
 .ultraDiv {
-  border-radius: 5%;
+  border-radius: 30px;
   /* background-color: rgb(255, 228, 196, 0.5); */
   background-color: rgb(74, 97, 78) !important;
   word-spacing: 2px;
@@ -81,9 +81,21 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 767px) {
+@media screen and (min-width: 650px) and (max-width: 767px) {
   .ultraDiv {
-    max-width: 450px;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  .suiterultrasoundpic {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .ultraDiv {
+    max-width: 490px;
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 17px;
@@ -120,7 +132,7 @@
 @media screen and (min-width: 320px) and (max-width: 430px) {
   .ultraDiv {
     font-size: 13px;
-    max-width: 300px;
+    max-width: 320px;
     margin-bottom: 20px;
     margin-top: 20px;
   }
