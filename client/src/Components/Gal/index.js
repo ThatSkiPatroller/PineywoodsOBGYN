@@ -118,6 +118,18 @@ const images = [
         description: 'Avryn'
     },
     {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-6515.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-6515.webp',
+        description: ''
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-6516.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-6516.webp',
+        description: 'Avryn'
+    },
+    {
         original: 'https://d1wedsacc4lfnu.cloudfront.net/q.webp',
         originalHeight: '600px',
         thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/q.webp',
