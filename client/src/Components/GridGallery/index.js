@@ -69,6 +69,30 @@ function GridGallery () {
         src: 'https://d1wedsacc4lfnu.cloudfront.net/eleven.webp',
         thumbnailWidth: 240,
         thumbnailHeight: 180
+    },
+    {
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_1.webp',
+        src: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_1.webp',
+        thumbnailWidth: 240,
+        thumbnailHeight: 180
+    },
+    {
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_2.webp',
+        src: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_2.webp',
+        thumbnailWidth: 240,
+        thumbnailHeight: 180
+    },
+    {
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_3_1.webp',
+        src: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_3_1.webp',
+        thumbnailWidth: 240,
+        thumbnailHeight: 180
+    },
+    {
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_3_2.webp',
+        src: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_20220329_3_2.webp',
+        thumbnailWidth: 240,
+        thumbnailHeight: 180       
     }]
 
     return(
