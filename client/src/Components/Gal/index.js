@@ -4,6 +4,36 @@ import './style.css';
 
 const images = [
     {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-1.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-1.webp',
+        description: ''
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-2.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-2.webp',
+        description: ''
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-3.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-3.webp',
+        description: ''
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-4.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/aug-22-pic-4.webp',
+        description: ''
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_8051_edited.jpg',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG_8051_edited.jpg',
+        description: ''
+    },
+    {
         original: 'https://d1wedsacc4lfnu.cloudfront.net/a.webp',
         originalHeight: '600px',
         thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/a.webp',
