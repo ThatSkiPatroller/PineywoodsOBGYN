@@ -35,5 +35,8 @@
     .container {
         flex-direction: column;
     }
+    .award {
+        width: 13%;
+    }
 }
   
