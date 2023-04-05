@@ -1,4 +1,46 @@
 .slideText {
   font-family: "Corben", cursive;
-  color: bisque;
+  color: black;
+  border-radius: 5px;
+}
+
+.sliderParent {
+  max-width: 700px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2;
+}
+
+.sliderContainer {
+  padding-bottom: 55px;
+  top: 20px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 400px;
+  z-index: 3;
+}
+
+@media screen and (min-width: 767px) {
+  .sliderParent {
+    max-width: 600px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .sliderParent {
+    max-width: 500px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sliderParent {
+    max-width: 450px;
+    height: auto;
+  }
 }

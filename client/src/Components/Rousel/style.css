@@ -1,6 +1,5 @@
 .laviathan {
   position: absolute;
-  z-index: 1;
   margin-left: -135px;
   left: 50%;
   margin-top: 400px;
@@ -10,6 +9,18 @@
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 15px;
   max-width: 800px;
 }
+
+.carousel-root {
+  z-index: 2;
+  position: relative;
+}
+
+.carouselSides {
+  background-image: url('https://d1wedsacc4lfnu.cloudfront.net/floralpattern.png');
+}
+
+/* .carousel img {
+  border-radius: 15%;
+} */

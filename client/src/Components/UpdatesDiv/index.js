@@ -6,14 +6,14 @@ import { Card } from '@material-ui/core'
 function UpdatesDiv () {
     return(
         <div>
-            <div>
+            {/* <div>
                 <a target='_blank' href='https://jamanetwork.com/journals/jama/fullarticle/2787240'>
                     <img src={UpdateDivPic} className='updateContainer' />
                 </a>
                 <div className='updateText'>
                     <h1>Click image to view full article</h1>
                 </div>
-            </div>
+            </div> */}
             <hr />
             <Card className='containerZ2'>
                 <h1>

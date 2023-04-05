@@ -35,7 +35,7 @@ function Header () {
                 </ul>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link active" href="/Updates"><b>Updates</b></a>
+                <a className="nav-link active" href="/Faq"><b>FAQ</b></a>
               </li>
             </ul>
           </div>

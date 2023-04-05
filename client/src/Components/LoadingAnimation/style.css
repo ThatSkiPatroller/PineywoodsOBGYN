@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #F0F8FF;
+  }
+  
+  .baby-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .baby {
+    position: absolute;
+    left: -20%;
+    top: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    transform: scale(1.5);
+  }
+  
+  .head {
+    width: 80px;
+    height: 80px;
+    background-color: #FCD4B4;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .curl {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    left: -15px;
+    top: 30px;
+    clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+  }
+  
+  .body {
+    width: 60px;
+    height: 40px;
+    background-color: #F08080;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .limb {
+    position: absolute;
+    background-color: #FCD4B4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .left-arm,
+  .right-arm {
+    width: 30px;
+    height: 12px;
+    border-radius: 6px 0 0 6px;
+  }
+  
+  .left-arm {
+    left: -28px;
+    top: 2px;
+    animation-name: left-arm-animation;
+  }
+  
+  .right-arm {
+    right: -28px;
+    top: 2px;
+    animation-name: right-arm-animation;
+  }
+  
+  .left-leg,
+  .right-leg {
+    width: 30px;
+    height: 12px;
+    border-radius: 6px 0 0 6px;
+  }
+  
+  .left-leg {
+    left: -32px;
+    bottom: 0px;
+    animation-name: left-leg-animation;
+  }
+  
+  .right-leg {
+    right: -32px;
+    bottom: 0px;
+    animation-name: right-leg-animation;
+  }
+  
+  @keyframes left-arm-animation {
+    0%, 100% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+  }
+  
+  @keyframes right-arm-animation {
+    0%, 100% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+  }
+  
+  @keyframes left-leg-animation {
+    0%, 100% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+  }
+  
+  @keyframes right-leg-animation {
+    0%, 100% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+  }

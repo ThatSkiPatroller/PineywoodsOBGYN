@@ -3,14 +3,14 @@ import Header from '../Components/Header';
 import Headings from '../Components/Headings';
 import UpdatesDiv from '../Components/UpdatesDiv';
 
-function Updates () {
+function Faq () {
     return (
         <div>
             <Header />
-            <Headings header='Updates' />
+            <Headings header='FAQ' />
             <UpdatesDiv />
         </div>
     )
 }
 
-export default Updates;
+export default Faq;

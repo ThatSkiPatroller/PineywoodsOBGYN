@@ -6,6 +6,7 @@ import './style.css'
 function Rousel () {
   return (
       <div>
+        <div className='carouselSides'>
         <div className='hercules'>
         <Carousel 
           showArrows={false}
@@ -43,6 +44,7 @@ function Rousel () {
             <img src='https://d1wedsacc4lfnu.cloudfront.net/JanaSuiterDiplomas.webp' className='carou' />
           </div>
         </Carousel>
+        </div>
         </div>
       </div>
   )
