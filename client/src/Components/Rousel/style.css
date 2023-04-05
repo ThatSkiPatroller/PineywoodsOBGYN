@@ -17,10 +17,10 @@
   position: relative;
 }
 
-.carouselSides {
+/* .carouselSides {
   background-image: url('https://d1wedsacc4lfnu.cloudfront.net/floralpattern.png');
-}
-
-/* .carousel img {
-  border-radius: 15%;
 } */
+
+.carousel img {
+  border-radius: 15%;
+}

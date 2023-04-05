@@ -2,4 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(133, 141, 110) !important;
+  background-image: url('https://d1wedsacc4lfnu.cloudfront.net/bgImgFinal2.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

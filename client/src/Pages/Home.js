@@ -4,6 +4,8 @@ import GoogMap from "../Components/GoogMap";
 import Rousel from '../Components/Rousel';
 import Footer from "../Components/Footer";
 import BestOf from "../Components/BestOf";
+// import BestOfCarousel from '../Components/BestOfCarousel';
+// import BestOfCarousel2 from '../Components/BestOfCarousel2';
 import ClickMe from '../Components/ClickMe';
 
 function Home () {                   
@@ -16,6 +18,8 @@ function Home () {
             <ClickMe />
             <GoogMap />
             <BestOf />
+            {/* <BestOfCarousel />
+            <BestOfCarousel2 /> */}
             <Footer />
         </div>
     )
