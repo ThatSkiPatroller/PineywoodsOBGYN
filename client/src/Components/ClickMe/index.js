@@ -4,11 +4,11 @@ import './style.css'
 function ClickMe () {
     return(
         <div>
-            <a href="/Faq">
-                <div className="insBtnContainer">
+            <div className="insBtnContainer">
+                <a href="/Faq">
                     <img src="https://d1wedsacc4lfnu.cloudfront.net/insurBtn.png" className="insurBtn"/>
-                </div>
-            </a>
+                </a>
+            </div>
         </div>
     )
 }
