@@ -1,5 +1,4 @@
 import React from 'react';
-import UpdateDivPic from '../../Images/UpdateDivPic.webp';
 import './style.css'
 import { Card } from '@material-ui/core'
 
