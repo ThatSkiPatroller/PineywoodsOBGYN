@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55vh; /* This is to demonstrate the container height, you can set it to your desired value */
+  height: 55vh; 
 }
 
 .clipboard {
   max-width: 100%;
 }
+
 .devMessage {
   text-align: center;
   font-family: "BioRhyme", serif;
