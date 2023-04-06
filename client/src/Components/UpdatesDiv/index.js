@@ -13,8 +13,10 @@ function UpdatesDiv () {
                 <div className='updateText'>
                     <h1>Click image to view full article</h1>
                 </div>
-            </div> */}
-            <hr />
+            </div> */} 
+            <div className='clipboardContainer'>
+                <img src='https://d1wedsacc4lfnu.cloudfront.net/clipboardFinal.png' className='clipboard' />
+            </div>
             <Card className='containerZ2'>
                 <h1>
                     Mammogram Before or After Well Woman's Exam?

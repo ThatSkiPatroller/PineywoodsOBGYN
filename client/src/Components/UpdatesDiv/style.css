@@ -1,3 +1,13 @@
+.clipboardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh; /* This is to demonstrate the container height, you can set it to your desired value */
+}
+
+.clipboard {
+  max-width: 100%;
+}
 .devMessage {
   text-align: center;
   font-family: "BioRhyme", serif;
@@ -46,7 +56,7 @@
   margin-right: auto;
 }
 
-hr {
+/* hr {
   border: 0;
   height: 4px;
   background-image: linear-gradient(
@@ -55,7 +65,7 @@ hr {
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
   );
-}
+} */
 
 @media screen and (min-width: 575px) {
   .devMessage {
