@@ -19,7 +19,7 @@ const settings = {
 function Slide () {
      return(
         <div>
-            <img src="https://d1wedsacc4lfnu.cloudfront.net/babyCloudFinal.png" className='sliderParent' />
+            <img src="https://d1wedsacc4lfnu.cloudfront.net/babyCloudFinal.png" alt="A big cloud with an animated baby sleeping on top of it"className='sliderParent' />
             <div className='sliderContainer'>
                 <Slider {...settings}>
                     <div className='slideText' align='center'>

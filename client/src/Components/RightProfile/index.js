@@ -23,7 +23,7 @@ function RightProfile (props) {
                     </Card>
                 </div>
                 <div className='col-sm-4 pic2Collumn'>
-                    <img src={props.picture} className='profPic2'/>
+                    <img src={props.picture} className='profPic2' alt='Jana Brazil, WHNP'/>
                 </div>
             </div>
         </div>

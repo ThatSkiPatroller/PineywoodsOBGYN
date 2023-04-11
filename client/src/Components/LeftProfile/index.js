@@ -8,7 +8,7 @@ function LeftProfile (props) {
         <div className='robot'>
             <div className='row'>
                 <div className='col-sm-4'>
-                    <img src={props.picture} className='profPic'
+                    <img src={props.picture} className='profPic' alt='Dr. Cheryl Suiter, OBGYN'
                     />
                 </div>
                 <div className='col-sm-8'>
