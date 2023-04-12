@@ -3,7 +3,7 @@
 }
 
 li a {
-  color: rgb(3, 109, 8) !important;
+  color: rgb(6, 114, 11) !important;
   font-family: "Gilda Display", serif;
   font-weight: 1000;
   font-size: 20px;
@@ -16,7 +16,7 @@ li a {
 }
 
 .dropdown-menu {
-  background-color: rgb(73, 100, 73);
+  background-color: rgb(89, 108, 92);
 }
 
 .dropdown-item {

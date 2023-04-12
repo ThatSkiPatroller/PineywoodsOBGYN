@@ -29,6 +29,10 @@
   margin-top: 20px;
 }
 
+.connect {
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
   .infoCard {
     width: 370px;

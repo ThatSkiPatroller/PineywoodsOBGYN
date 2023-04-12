@@ -56,6 +56,7 @@ function GoogMap (props) {
             <a target='_blank' href='https://www.facebook.com/Pineywoods-Obstetrics-And-Gynecology-Dr-Cheryl-Suiter-and-Jana-Brazil-WHNP-197455900300411'>
                 <img src={FB} className='FbContainer' alt='Facebook thumbs up icon'/>
             </a>
+            <p className='connect'>Connect with us on Facebook!</p>
         </Card>
     )
 }
