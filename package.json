@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.5.0",
+    "axios": "^1.4.0",
     "express": "^4.16.3",
     "react-dom": "^16.14.0",
     "react-grid-gallery": "^0.5.5",

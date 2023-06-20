@@ -1,1 +1,52 @@
-@import "~react-image-gallery/styles/css/image-gallery.css"
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.loading {
+    margin-bottom: 1000px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    font-size: 60px;
+}
+
+.backbtn {
+    width: 150px;
+    height: 40px;
+    background-color: bisque;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .backbtn {
+      /* Styles for screens with a maximum width of 600px */
+      font-size: 15px;
+      width: 100px;
+      height: 30px;
+    }
+  }
+

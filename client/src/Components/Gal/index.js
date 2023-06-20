@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ImageGallery from 'react-image-gallery';
+import Logo from '../../Images/Logo.png';
 import './style.css';
 
 const images = [
@@ -343,9 +344,67 @@ const images = [
 ]
 
 function Gal () {
+    const [isLoading, setIsLoading] = useState(true);
+    const [showGallery, setShowGallery] = useState(false);
+    const [selectedIndex, setSelectedIndex] = useState(0);
+
+    function loadImage(src) {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.src = src;
+          img.onload = () => resolve();
+          img.onerror = () => reject();
+        });
+    }
+    
+      useEffect(() => {
+        Promise.all(
+            images.map((img) => loadImage(img.original))
+          )
+            .then(() => setIsLoading(false))
+            .catch((error) => console.error(error));
+        }, []);
+
+    const thumbnailClickHandler = (index) => {
+        setSelectedIndex(index);
+        setShowGallery(true);
+    }
+
+    const backButtonHandler = () => {
+        setShowGallery(false);
+    }
+
     return (
         <div>
-            <ImageGallery items={images}/> 
+        {isLoading ? (
+            <div>
+                <div className='loading'>Loading...</div>
+            </div>
+        ) : (
+            !showGallery ? 
+                <div className='thumbnail-container'>
+                    {images.map((img, index) => (
+                        <img 
+                        key={index}
+                        src={img.thumbnail} 
+                        alt={img.orignalAlt}
+                        height='200px'
+                        onClick={() => thumbnailClickHandler(index)}
+                        className='thumbnail'
+                        />
+                    ))}
+                </div> : 
+                <div>
+                    <button className='backbtn' onClick={backButtonHandler}>Back</button>
+                    <ImageGallery 
+                        items={images} 
+                        startIndex={selectedIndex}
+                        onSlide={() => null}
+                        lazyLoad={true}
+                    />
+                    {/* <div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div> */}
+                </div>
+            )}
         </div>
     )
 }
