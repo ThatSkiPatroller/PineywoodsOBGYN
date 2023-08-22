@@ -340,6 +340,54 @@ const images = [
         description: 'Office Christmas Party',
         orignalAlt: 'Pineywoods OBGYN staff Christmas party photo',
         thumbnailAlt: 'Pineywoods OBGYN staff Christmas party photo'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-9034.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-9034.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/image3.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/image3.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-1898.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-1898.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/image-6483441.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/image-6483441.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-9503.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/IMG-9503.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/image0.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/image0.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
     }
 ]
 

@@ -25,6 +25,7 @@
 .modalCloseBtn {
     width: 50px;
     background-color: rgb(98, 132, 98);
+    outline: none;
 }
 
 .modal-header {
@@ -36,21 +37,16 @@
     text-align: center;
 }
 
-/* Use a media query to target devices with a max-width of 600px */
+
 @media (max-width: 600px) {
-    /* Apply these styles only when the device width is less than or equal to 600px */
     .modal-content {
-      /* Reduce the width of the modal content */
       width: 80%;
-      /* Reduce the font size of the modal header */
       font-size: 1.2rem;
     }
     .modal-main {
-      /* Reduce the padding of the modal main */
       padding: 10px;
     }
     .award23 {
-      /* Reduce the width of the image */
       width: 100%;
     }
   }
