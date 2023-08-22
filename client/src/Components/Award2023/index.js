@@ -22,9 +22,7 @@ const Award2023 = () => {
     // return the JSX for your component
     return (
       <div className="theModal">
-        {/* use a conditional rendering to show or hide the modal based on the showModal state */}
         {showModal && (
-          // use a div element to create a backdrop for the modal
           <div className="modal-backdrop">
             <div className="modal-content">
               <header className="modal-header">
