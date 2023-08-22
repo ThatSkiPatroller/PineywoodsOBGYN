@@ -39,7 +39,7 @@
     margin-left: 20px;
     margin-bottom: 10px;
     position: relative;
-    outline: none;
+    outline: none !important;
 }
 
 @media (max-width: 600px) {
