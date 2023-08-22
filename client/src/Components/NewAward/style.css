@@ -1,0 +1,8 @@
+.newAward {
+    display: flex;
+    justify-content: center;
+}
+
+.newAwardImage {
+    width: 150px;
+}
