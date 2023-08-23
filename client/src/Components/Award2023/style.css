@@ -25,6 +25,8 @@
 .modalCloseBtn {
     width: 50px;
     background-color: rgb(98, 132, 98);
+    appearance: none;
+    -moz-appearance: none;
     -webkit-appearance: none;
 }
 
