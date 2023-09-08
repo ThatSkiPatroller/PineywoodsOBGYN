@@ -388,7 +388,31 @@ const images = [
         description: '',
         orignalAlt: 'Pineywoods OBGYN',
         thumbnailAlt: 'Pineywoods OBGYN'
-    }
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/9823_1.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/9823_1.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/9823_2.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/9823_2.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    },
+    {
+        original: 'https://d1wedsacc4lfnu.cloudfront.net/9823_3.webp',
+        originalHeight: '600px',
+        thumbnail: 'https://d1wedsacc4lfnu.cloudfront.net/9823_3.webp',
+        description: '',
+        orignalAlt: 'Pineywoods OBGYN',
+        thumbnailAlt: 'Pineywoods OBGYN'
+    }    
 ]
 
 function Gal () {
