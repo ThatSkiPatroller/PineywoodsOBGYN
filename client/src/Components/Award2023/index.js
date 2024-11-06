@@ -7,19 +7,14 @@ import "./style.css";
 const Award2023 = () => {
     const [showModal, setShowModal] = useState(false);
 
-    // use useEffect to run a function when the component mounts
-    // pass an empty array as the second argument to run the effect only once
     useEffect(() => {
-      // set the state variable to true to open the modal
       setShowModal(true);
     }, []);
   
-    // create a function to close the modal by setting the state variable to false
     const handleClose = () => {
       setShowModal(false);
     };
   
-    // return the JSX for your component
     return (
       <div className="theModal">
         {showModal && (

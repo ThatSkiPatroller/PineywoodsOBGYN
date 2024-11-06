@@ -36,6 +36,7 @@ function GoogMap (props) {
                     <h1>Hours:</h1>
                     <p>Monday - Thursday: 8:30 AM - 5 PM </p>
                     <p>Friday: 8:30 AM - 12 PM </p>
+                    <p>Out for lunch between 12 and 1 PM</p>
                     <h1>Phone Number: </h1> <p>936-699-7575</p>
                     <h1>Address:</h1> <p>402 Gaslight Blvd, Lufkin, Tx</p>
                 </div>
