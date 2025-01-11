@@ -21,11 +21,12 @@ function Rousel () {
           animationHandler={'fade'}
           swipeable={false}
         >
+          {/* make sure images are sized to 3:2 aspect ratio */}
           <div>
             <img src='https://d1wedsacc4lfnu.cloudfront.net/SuiterSign.webp' className='carou' alt="Dr. Suiter standing in front of Pineywoods OBGYN sign"/>
           </div>
           <div>
-            <img src='https://d1wedsacc4lfnu.cloudfront.net/Crystal&Cynthia.webp' className='carou' alt="Patient checking out at front desk of Pineywoods OBGYN"/>
+          <img src='https://d1wedsacc4lfnu.cloudfront.net/newImg2.jpg' className='carou' alt="Patient checking out at front desk of Pineywoods OBGYN"/>
           </div>
           <div>
             <img src='https://d1wedsacc4lfnu.cloudfront.net/JanaSign.webp' className='carou' alt="Jana Brazil standing in front of Pineywoods OBGYN sign"/>
