@@ -13,15 +13,17 @@ function BestOf () {
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2010.png" alt="Best of Lufkin 2010 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2011.png" alt="Best of Lufkin 2011 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2012.png" alt="Best of Lufkin 2012 Award"/>
+                    <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2013.png" alt="Best of Lufkin 2013 Award"/>
                 </div>
                 <div class="awards-container">
-                    <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2013.png" alt="Best of Lufkin 2013 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2014.png" alt="Best of Lufkin 2014 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2015.png" alt="Best of Lufkin 2015 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2016.png" alt="Best of Lufkin 2016 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2017.png" alt="Best of Lufkin 2017 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2018.png" alt="Best of Lufkin 2018 Award"/>
                     <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2021.png" alt="Best of Lufkin 2021 Award"/>
+                    <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2023Compressed.png" alt="Best of Lufkin 2023 Award"/>
+                    <img class="award" src="https://d1wedsacc4lfnu.cloudfront.net/BestOfLufkinAward2024.png" alt="Best of Lufkin 2024 Award"/>
                 </div>
             </div>
         </div>

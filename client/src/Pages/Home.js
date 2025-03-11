@@ -3,7 +3,7 @@ import Slider from '../Components/Slide';
 import GoogMap from "../Components/GoogMap";
 import Rousel from '../Components/Rousel';
 import Footer from "../Components/Footer";
-import NewAward from '../Components/NewAward';
+// import NewAward from '../Components/NewAward';
 import BestOf from "../Components/BestOf";
 // import BestOfCarousel from '../Components/BestOfCarousel';
 // import BestOfCarousel2 from '../Components/BestOfCarousel2';
@@ -18,7 +18,7 @@ function Home () {
             <Slider />
             <ClickMe />
             <GoogMap />
-            <NewAward />
+            {/* <NewAward /> */}
             <BestOf />
             {/* <BestOfCarousel />
             <BestOfCarousel2 /> */}
